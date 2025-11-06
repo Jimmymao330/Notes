@@ -1,369 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[課程筆記]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>課程筆記</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 30 Oct 2025 07:46:01 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 30 Oct 2025 07:44:58 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[遺傳]]></title><description><![CDATA[片段遺傳學等位基因孟德爾的遺傳法則遺傳工程
-反覆執行自交
-直到產生的子代性狀與親代完全相同 自己跟自己交配 相同基因型的交配
-孟德爾用來產生「純品系」的植株
-不同表現型的個體交配 不同基因型的個體交配 未知基因型的顯性個體與已知基因型的隱性個體交配
-為了要確認顯性性狀個體的基因型，透過與隱性性狀個體交配來確認基因型 雄雌表徵互換的交配
-用來檢驗性別對於子代基因型的影響 遺傳實驗的實驗用語
-孟德爾想要知道，兩種「純品系但不同表現型」的植株交配（雜交）後會產生何種表現型的植株 試驗植株皆為<a data-tooltip-position="top" aria-label="遺傳實驗的實驗用語.md > ^4e1a56" data-href="遺傳實驗的實驗用語.md#^4e1a56" href="生物/遺傳/孟德爾的遺傳法則/遺傳實驗的實驗用語.html#^4e1a56" class="internal-link" target="_self" rel="noopener nofollow">純品系</a> 只會有兩種不同的表現型 兩種不同表現型的純品系植株雜交
-第一子代皆為「同一種表現型」
-定義剩下的同一性狀為「顯性表徵」 第一子代進行自交
-第二子代出現了「第一子代」沒有、但親代出現過的表徵
-定義親代有、第一子代沒有、第二子代出現的性狀為「隱性表徵」
-第二子代中顯性表徵與隱性表徵的個體數量比為 3:1
-所有基因型可能的組合皆有出現 在這兩次的遺傳實驗中，只出現了顯性表徵與隱性表徵兩種，沒有其他表徵或中間型態的表徵 推測有某種「隱藏起來的」因素能夠控制表現型
-推測不只有一個因素能夠控制，因此假設有兩個遺傳因子一同控制→當時孟德爾並不確定此主張是否正確
-假設顯性表徵的遺傳因子為大寫字母，隱性表徵的遺傳因子為小寫字母 孟德爾利用二項分析（即棋盤方格法）分析表現型與基因型的組合
-純品系→雜交→第一子代 顯性性狀：隱性性狀＝3：1
-第一子代→自交→第二子代 顯性性狀：隱性性狀＝3：1
-孟德爾是用數學計算，當時並無棋盤方格法概念
-顯性未知基因型的植株與隱性植株試交
-假設顯性未知基因型的植株基因型為Pp 假設中，試交結果顯性隱性植株數量比應為 1:1
-若假設成立，則符合棋盤方格法推導結果 不討論隱性表徵的植株，因為隱性表徵植株必為純品系
-只拿第二子代中的顯性表徵植株進行自交
-透過第三子代的結果來回推第二子代中的純品系數量
-實驗結果發現「顯性純品系與顯性非純品系」的比例為 1:2 因此第二子代中
-顯性純品系：顯性非純品系：隱性（純品系）
-= 1:2:1
-完全符合二項分布的推導結果，證實單性雜交實驗結論成立 單性雜交實驗
-雌雄蕊同株 雌雄蕊皆包覆在花蕊中 避免外界干擾
-在授粉時可以確定一定是相對應植株的花粉 自花授粉/自交 有利於實驗時間的縮短
-可以在有效時間內做足夠的實驗搜集大量數據 方便統計數據與分析
-方便比較與計算比例
-歸納出分離律
-一次觀察多種性狀
-發現遺傳因子間彼此不互相影響
-歸納出獨立分配論孟德爾的遺傳實驗
-一次觀察兩種不同性狀 <br>無論要觀察的性狀為何，試驗植株皆需要為<a data-tooltip-position="top" aria-label="遺傳實驗的實驗用語.md > ^4e1a56" data-href="遺傳實驗的實驗用語.md#^4e1a56" href="生物/遺傳/孟德爾的遺傳法則/遺傳實驗的實驗用語.html#^4e1a56" class="internal-link" target="_self" rel="noopener nofollow">純品系</a>
-實驗組別： 「黃色圓皮」與「綠色皺皮」 「黃色圓皮」與「綠色皺皮」的純品系植株雜交
-第一子代皆為「黃色圓皮」
-定義「黃色圓皮」為顯性 "YR"
-實驗結果幾乎與單性雜交實驗相同
-第一子代進行自交
-第二子代出現了「第一子代」沒有、但親代出現過的「綠色皺皮」表徵
-定義「綠色皺皮」為隱性 "yr"
-第二子代中顯性表徵與隱性表徵的個體數量比為 3:1
-所有基因型可能的組合皆有出現
-實驗結果幾乎與單性雜交實驗相同
-黃色：綠色＝3：1
-圓皮：皺皮＝3：1
-與單性雜交實驗相同，可以用分離率解釋
-黃圓：黃皺：綠圓：綠皺＝9：3：3：1
-雙性雜交實驗主要的重大收穫顯性一定配顯性
-黃圓：黃皺：綠圓：綠皺＝3：0：0：1
-分別統計，黃色：綠色仍為3：1、圓皮：皺皮仍為3：1（符合分離率）
-顯性一定配隱性
-黃圓：黃皺：綠圓：綠皺＝2：1：1：0
-分別統計，黃色：綠色仍為3：1、圓皮：皺皮仍為3：1（符合分離率）
-如果黃綠、圓皺「部分」不服從「獨立分配率」，子代表徵狀況會如何分布？雙性雜交實驗Info 約於1865年左右發表
-當時還沒有基因的概念
-發表當時沒有直接被科學界認可 並非使用英文發表
-使用了大量的數學論證，並非生物學家常見方法 約到1900年才開始被科學界重視→孟德爾遺傳法則的再發現 開始有大量的研究引用孟德爾的遺傳法則
-開始被證實 <br>發現<a data-href="細胞分裂" href="生物/細胞/細胞分裂/細胞分裂.html" class="internal-link" target="_self" rel="noopener nofollow">細胞分裂</a>與<a data-href="染色體" href="生物/細胞/細胞分裂/染色體.html" class="internal-link" target="_self" rel="noopener nofollow">染色體</a>時，並非為了證實遺傳法則 但是卻因此而發現遺傳與細胞分裂與基因有重要連結 認為有「遺傳因子」 遺傳因子成對
-遺傳因子會彼此分離進入配子
-配子結合後，遺傳因子會再次回復成一對 <br>此定律來自「<a data-tooltip-position="top" aria-label="孟德爾的遺傳實驗.md > ^154f58" data-href="孟德爾的遺傳實驗.md#^154f58" href="生物/遺傳/孟德爾的遺傳法則/孟德爾的遺傳實驗.html#^154f58" class="internal-link" target="_self" rel="noopener nofollow">單性雜交實驗</a>」的實驗結果
-分為「顯性」與「隱性」 顯性與隱性同時出現時，只會顯出顯性的遺傳性狀 後來發現很多性狀的表現並非由單一一對的遺傳因子產生 僅適用於孟德爾的遺傳實驗
-因此後來不將此律視為廣泛使用的遺傳法則 <br><a data-tooltip-position="top" aria-label="單基因遺傳 > ^3c29ad" data-href="單基因遺傳#^3c29ad" href="生物/遺傳/遺傳學／分子生物學/等位基因/單基因遺傳.html#^3c29ad" class="internal-link" target="_self" rel="noopener nofollow">共顯性遺傳</a>
-<br><a data-tooltip-position="top" aria-label="單基因遺傳 > ^d6898f" data-href="單基因遺傳#^d6898f" href="生物/遺傳/遺傳學／分子生物學/等位基因/單基因遺傳.html#^d6898f" class="internal-link" target="_self" rel="noopener nofollow">不完全顯性遺傳</a> 遺傳因子的分離不會受到其他遺傳因子的影響 遺傳因子彼此之間在分離時沒有相關聯或彼此影響
-遺傳因子皆為獨立分離與分配 遺傳因子在分離隨機進入配子，不受其他遺傳因子影響
-<br>此定律來自「<a data-tooltip-position="top" aria-label="孟德爾的遺傳實驗.md > ^8cbcaf" data-href="孟德爾的遺傳實驗.md#^8cbcaf" href="生物/遺傳/孟德爾的遺傳法則/孟德爾的遺傳實驗.html#^8cbcaf" class="internal-link" target="_self" rel="noopener nofollow">雙性雜交實驗</a>」的實驗結果孟德爾的遺傳法則<br><a href=".?query=tag:科學史" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#科學史">#科學史</a> <br>同源染色體分離現象：符合「<a data-tooltip-position="top" aria-label="孟德爾的遺傳法則 > ^672337" data-href="孟德爾的遺傳法則#^672337" href="生物/遺傳/孟德爾的遺傳法則/孟德爾的遺傳法則.html#^672337" class="internal-link" target="_self" rel="noopener nofollow">分離率</a>」
-<br>非同源染色體不互相干擾：符合「<a data-tooltip-position="top" aria-label="孟德爾的遺傳法則 > ^490c55" data-href="孟德爾的遺傳法則#^490c55" href="生物/遺傳/孟德爾的遺傳法則/孟德爾的遺傳法則.html#^490c55" class="internal-link" target="_self" rel="noopener nofollow">獨立分配律</a>」
-由 Sutton 於 1902 年發現由 Boveri 於 1904 年發現染色體學說
-<br>位於同源<a data-href="染色體" href="生物/細胞/細胞分裂/染色體.html" class="internal-link" target="_self" rel="noopener nofollow">染色體</a>上相同位置的<a data-href="基因" href="生物/遺傳/遺傳學／分子生物學/基因.html" class="internal-link" target="_self" rel="noopener nofollow">基因</a>
-等位基因組「不一定」只有兩條，要看同源染色體的倍數（幾n） <br><a data-href="等位基因" href="生物/遺傳/遺傳學／分子生物學/等位基因/等位基因.html" class="internal-link" target="_self" rel="noopener nofollow">等位基因</a>的組合就稱為基因型
-同型合子
-等位基因相同
-Example
-例如：PP、pp 異型合子
-等位基因不同
-Example
-例如：Pp Example 例如ABO血型，總共由三種基因型操控一個性狀 Example 例如身高，同時由多組等位基因操縱一個性狀 等位基因遺傳<br><a href=".?query=tag:科學史" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#科學史">#科學史</a> <br>已知遺傳因子在<a data-href="染色體" href="生物/細胞/細胞分裂/染色體.html" class="internal-link" target="_self" rel="noopener nofollow">染色體</a>上
-<br>染色體包含<a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>與<a data-href="DNA" href="生物/遺傳/遺傳學／分子生物學/dna.html" class="internal-link" target="_self" rel="noopener nofollow">DNA</a>
-究竟「蛋白質」或「DNA」誰是遺傳因子？
-染色體上的蛋白質含量遠高於DNA
-蛋白質可能由超過20種胺基酸組成，比只可能由4種核苷酸組成的DNA要複雜許多
-於 1928 年證實 菌種表現型 光滑型細菌：會致死
-粗糙型細菌：不會致死 實驗流程 將已經死亡的光滑型細菌注入小鼠體內，小鼠存活。
-將已經死亡的光滑型細菌與粗糙型細菌一同注入小鼠體內，小鼠死亡。 結論：光滑型細菌會以某種物質將性狀轉移至粗糙型細菌，稱為轉型作用於 1944 年證實
-實驗流程 以水解酶將蛋白質與RNA分解
-<br><a data-tooltip-position="top" aria-label="遺傳因子之爭 > ^5079ce" data-href="遺傳因子之爭#^5079ce" href="生物/遺傳/遺傳學／分子生物學/遺傳因子之爭.html#^5079ce" class="internal-link" target="_self" rel="noopener nofollow">轉型作用</a>依然發生 於 1952 年證實
-實驗流程 <br>利用噬菌體，分別以放射性元素標定<a data-footref="1" href="#fn-1-fd66ba1515130444" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>蛋白質的硫、DNA中的磷。
-發現具放射性的磷出現於受感染的細菌體內 結論：DNA中所含的磷會參與遺傳，證實DNA參與遺傳 <br>將標定的元素變為具有放射性元素，已追蹤。<a href="#fnref-1-fd66ba1515130444" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
-遺傳因子之爭
-又稱為「基因工程」
-操控或改造生物基因，改變其性狀 <br>攜帶目標<a data-href="基因" href="生物/遺傳/遺傳學／分子生物學/基因.html" class="internal-link" target="_self" rel="noopener nofollow">基因</a>進入細胞
-<br>載體：細菌<a data-href="質體" href="生物/遺傳/質體.html" class="internal-link" target="_self" rel="noopener nofollow">質體</a>或病毒的DNA 限制酶：切割DNA
-連接酶：連接DNA片段 <br>將<a data-tooltip-position="top" aria-label="^8e15e0" data-href="#^8e15e0" href="#^8e15e0" class="internal-link" target="_self" rel="noopener nofollow">重組</a>後的DNA轉殖進入細胞之中
-遺傳工程<br><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a>&gt;[!note] 常見於細菌<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Plasmid_%28english%29.svg/500px-Plasmid_%28english%29.svg.png" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
-獨立於染色體DNA之外的一小段環狀DNA
-與生物本身功能與運作無關
-生物體沒有質體仍然可以生存
-可以轉錄、轉譯產生相對應的蛋白質
-在細胞分裂時也可以複製繁殖
-<br>可以用於<a data-href="遺傳工程" href="生物/遺傳工程.html" class="internal-link" target="_self" rel="noopener nofollow">遺傳工程</a>
-質體<br>被視為<a data-href="分子生物學的中心法則" href="生物/遺傳/遺傳學／分子生物學/分子生物學的中心法則.html" class="internal-link" target="_self" rel="noopener nofollow">分子生物學的中心法則</a><br>發生在<a data-href="細胞核" href="生物/細胞/細胞中的構造/細胞核.html" class="internal-link" target="_self" rel="noopener nofollow">細胞核</a>中
-透過RNA聚合酶以單股DNA作為模板，進行含氮鹼基配對。 原本DNA中是「A→T」，在RNA中會以U替代T，變為「A→U」。 <br><img src="https://www.ansforce.com/upload/posts/12/S1-p1123/5a49e21794853.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved"><br>發生在<a data-href="核糖體" href="生物/細胞/細胞中的構造/細胞質中的構造/核糖體.html" class="internal-link" target="_self" rel="noopener nofollow">核糖體</a>中
-[!warning] 核苷酸與胺基酸並非一一對應，而是三個對應一個<br>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Aminoacids_table.svg/640px-Aminoacids_table.svg.png" referrerpolicy="no-referrer" target="_self" class="is-unresolved"> 將RNA中密碼子配對至對應的胺基酸
-RNA中三個核苷酸為一個密碼子 轉譯起點為AUG，作為蛋白質配對的開始，對應到的蛋白質為亞硫胺酸 (Met) 轉譯起點為UAA、UAG或UGG，作為蛋白質配對的結束
-蛋白質表現<br><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Centraldogma_nodetails.png" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
-DNA製造RNA
-RNA製造蛋白質
-蛋白質協助「DNA製造RNA」
-蛋白質協助「RNA製造蛋白質」
-蛋白質協助「DNA自我複製」
-遺傳訊息傳遞到蛋白質後，不能夠傳遞回核酸
-例外：有些病毒可以把訊息自RNA逆轉錄回DNA中 分子生物學的中心法則
-只由一組等位基因操控某一性狀
-一組等位基因中，等位基因的數量不一定 例如豌豆性狀，只有顯性或隱性性狀 兩個等位基因皆為顯性，對表現型有相同影響力
-兩個顯性可以同時出現
-Note
-例如MN血型中，只有M、N兩種基因，但有M、N、MN三種血型 共顯性遺傳與複等位基因無關 顯性與隱性之間有介於顯隱性之間的過渡形態（類似(1+1)÷2，而非同時出現）
-因此無法判斷顯性或隱性
-Note
-例如紫茉莉花色中，只有R、R'兩種基因，表現型可以對應到紅、白、粉紅 一組等位基因中有兩種以上的等位基因可能 <br>符合<a data-tooltip-position="top" aria-label="^3c29ad" data-href="#^3c29ad" href="#^3c29ad" class="internal-link" target="_self" rel="noopener nofollow">共顯性遺傳</a> 有四種等位基因（有順序），一組只會有兩種基因 C+：全色
-Cch：銀灰色
-Ch：黑尾黑肢
-C：全白 越前面的基因會蓋過越後面的基因→前面的基因會對後面的基因呈現顯性
-Note
-例如： 銀灰色＋全白，只會顯示銀灰色
-全色＋黑尾黑枝，只會顯示全色 不符合共顯性遺傳 非不完全顯性遺傳 複等位基因遺傳一定是共顯性遺傳嗎？
-不是！
-單基因遺傳
-同時由多個等位基因組控制同一個性狀，又稱為數量遺傳
-全部等位基因組加起來的顯性多寡，會影響表現型 最高身高
-膚色深淺 多基因遺傳
-與性別有關的遺傳 性別本身就是性狀（性染色體）
-性染色體會決定性別，但性別不一定是由性染色體決定 等位基因位於性染色體上
-每一種性聯遺傳的疾病或性狀的遺傳規則都不一定相同
-因為X染色體較長，所以有很多等位基因位於X染色體上 如果Y染色體上沒有相對應的等位基因，就很容易直接顯示出隱性的表徵 Note
-人類：色盲、血友病、蠶豆症等
-貓：毛色
-性聯遺傳
-<br><a data-href="性狀" href="生物/遺傳/遺傳學／分子生物學/性狀.html" class="internal-link" target="_self" rel="noopener nofollow">性狀</a>表現的差異
-<br>與<a data-href="性狀" href="生物/遺傳/遺傳學／分子生物學/性狀.html" class="internal-link" target="_self" rel="noopener nofollow">性狀</a>並不相同
-<br>「性徵」是將「<a data-href="性狀" href="生物/遺傳/遺傳學／分子生物學/性狀.html" class="internal-link" target="_self" rel="noopener nofollow">性狀</a>」與「表徵」合併敘述，容易混淆表徵
-<br><a data-href="性狀" href="生物/遺傳/遺傳學／分子生物學/性狀.html" class="internal-link" target="_self" rel="noopener nofollow">性狀</a>的基本單位
-基因型並非探討基因本身，而是等位基因的組合
-<br>可以進行<a data-href="蛋白質表現" href="生物/遺傳/遺傳學／分子生物學/蛋白質表現.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質表現</a>的<a data-href="DNA" href="生物/遺傳/遺傳學／分子生物學/dna.html" class="internal-link" target="_self" rel="noopener nofollow">DNA</a>片段
-<br>蛋白質會影響<a data-href="表徵" href="生物/遺傳/遺傳學／分子生物學/表徵.html" class="internal-link" target="_self" rel="noopener nofollow">表徵</a>
-基因於 1919 年證實
-<br>開啟「<a data-href="遺傳因子之爭" href="生物/遺傳/遺傳學／分子生物學/遺傳因子之爭.html" class="internal-link" target="_self" rel="noopener nofollow">遺傳因子之爭</a>」
-於 1953 年提出<br><img src="https://www.genome.gov/sites/default/files/media/images/2024-05/DNA_2024a.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
-雙股去氧核糖聚核苷酸鏈 只有雙股（兩條）構成的才是DNA
-雙股平行螺旋→更加穩定（纏繞） 核苷酸與含氮鹼基互相連接 <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/DNA_replication_zh.png/500px-DNA_replication_zh.png" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
-透過DNA聚合酶以單股DNA作為模板，進行含氮鹼基配對。
-雙股同時進行複製
-一股是新的、一股是舊的（因此稱為半保留複製）
-DNA
-基因藉由蛋白質表現來產生性狀
-<br>生物體的特徵本體（例如：眼睛的「顏色」；而「藍色、棕色、黑色」則是<a data-href="表徵" href="生物/遺傳/遺傳學／分子生物學/表徵.html" class="internal-link" target="_self" rel="noopener nofollow">表徵</a>） <br>性狀的決定因子是「<a data-href="等位基因" href="生物/遺傳/遺傳學／分子生物學/等位基因/等位基因.html" class="internal-link" target="_self" rel="noopener nofollow">等位基因</a>組」 性狀是由決定因子來決定，但由於性狀是藉由蛋白質表現，因此可能有其他因素影響到性狀的表現 細胞本身基因的變異
-在等位基因配對以外所產生的新可能
-基因重組：
-在減數分裂的過程中，可能因為交換DNA等各種因素，導致基因重組，進而影響性狀
-突變：
-遺傳物質「根本性」的改變 核酸
-鹼基對：鹼基對本身也可能產生變異，例如配對錯誤 導致基因改變，影響基因的結構，進而影響性狀
-突變本身沒有好壞，但很多容易被發現的突變會帶來負面影響，相比之下，正面影響不容易被發現。 生物體外的物理與化學環境因素可能影響性狀表現
-Note 繡球花因為土壤酸鹼（影響鋁分子吸收）而改變花色
-喜馬拉雅兔因為環境溫度影響酵素活性，影響黑色素的生成，進而造成毛色受到影響 性狀
-因為繁殖快速，可以用來生產藥物或特殊物質。 增加產值、產生藥物原料 增加抗害能力→增加產值 避免受到病蟲害
-避免受到除草劑影響 增加營養價值
-基因改造並非萬能
-因為雜交而散播受改造的基因
-使害蟲產生抗藥性
-影響到生物圈或食物鏈的其他物種（例如類似害蟲的其他物種） <br>因為基因改造改變<a data-href="代謝" href="生物/生命現象/代謝.html" class="internal-link" target="_self" rel="noopener nofollow">代謝</a>的過程，因而產生原本不存在的代謝物質 <br>因為在<a data-tooltip-position="top" aria-label="蛋白質表現" data-href="蛋白質表現" href="生物/遺傳/遺傳學／分子生物學/蛋白質表現.html" class="internal-link" target="_self" rel="noopener nofollow">產生目標的蛋白質</a>時，可能產生其他額外的物質 難以確認是否100%安全 基因改造的不確定性
-基因改造「好不好」？ 一定有好處
-造成其他風險 基因改造生物]]></description><link>生物/卡片盒/遺傳.html</link><guid isPermaLink="false">生物/卡片盒/遺傳.canvas</guid><pubDate>Thu, 30 Oct 2025 07:40:16 GMT</pubDate><enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Plasmid_%28english%29.svg/500px-Plasmid_%28english%29.svg.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Plasmid_%28english%29.svg/500px-Plasmid_%28english%29.svg.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[細胞]]></title><description><![CDATA[分類形成細胞的構造組成細胞的化學物質細胞的分裂細胞的能量
-單層膜構成的泡狀物 在植物細胞中比較多、比較明顯
-在動物細胞中比較少、不明顯 維持細胞形狀
-細胞代謝物質
-儲存物質： 水
-色素
-礦物質
-細胞代謝的廢物 Note
-巨噬細胞內部用來放被吞噬細胞用的液泡會稱為「吞噬體」。
-液泡<img src="https://ehanlin-keyword.s3.amazonaws.com/image/668570.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">分為：
-扁囊狀
-<br>上面附著<a data-href="核糖體" href="生物/細胞/細胞中的構造/細胞質中的構造/核糖體.html" class="internal-link" target="_self" rel="noopener nofollow">核糖體</a>（所以「粗糙」） <br>表面附著的核糖體會合成<a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>
-蛋白質隨即進入粗糙內質網
-粗糙內質網在酵素協助上修飾與運輸蛋白質 一端連著細胞核，一端向細胞膜延伸 管狀構成的網狀結構 和脂質的合成與運輸有關 一端連著細胞核，一端向細胞膜延伸
-內質網
-<br>由<a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>組成 由兩個管狀構造的中心粒構成一個中心體 細胞分裂時協助染色體分離 位於細胞核附近
-動物細胞中有
-植物細胞通常沒有
-Important
-沒有中心粒的情況下，還是可以形成紡錘絲
-中心粒與紡錘絲
-控制物質進出細胞核 核糖體（細胞核→細胞質）
-RNA（細胞核→細胞質） 可能有一個或數個
-合成核糖體的場所
-主要成分 RNA
-<br><a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>（維持穩定狀態） 細胞核內的膠狀物質
-<br>可能散佈著<a data-href="染色質" href="生物/細胞/細胞分裂/染色質.html" class="internal-link" target="_self" rel="noopener nofollow">染色質</a>
-細胞核
-雙層膜
-基質 葉綠餅 類囊體堆疊而成 彼此間有連結，而非獨立胞器
-具有光合色素 <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chloroplast_II-zh-hant.svg/500px-Chloroplast_II-zh-hant.svg.png" referrerpolicy="no-referrer" target="_self" class="is-unresolved">葉綠體<br><img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/573745.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
-扁囊狀
-構造沒有內質網這麼複雜
-不會跟核膜有連結
-可以產生運輸囊泡 細胞的分泌中心，在有分泌功能的細胞中特別發達
-運輸、儲存
-修飾要分泌的物質
-變成囊泡來將物質分泌出去
-高基氏體<br><img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/694706.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
-RNA
-<br><a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a> 無膜
-顆粒狀構造
-分為兩個次單元 大次單元
-小次單元 <br>兩個次單元皆由<a data-tooltip-position="top" aria-label="細胞核 > ^2125f8" data-href="細胞核#^2125f8" href="生物/細胞/細胞中的構造/細胞核.html#^2125f8" class="internal-link" target="_self" rel="noopener nofollow">核仁</a>製造，並於<a data-tooltip-position="top" aria-label="細胞核 > ^6e0f84" data-href="細胞核#^6e0f84" href="生物/細胞/細胞中的構造/細胞核.html#^6e0f84" class="internal-link" target="_self" rel="noopener nofollow">核質</a>中組成為完整的核糖體。 用來合成蛋白質。 <br>分散於<a data-href="細胞質" href="生物/細胞/細胞中的構造/細胞質.html" class="internal-link" target="_self" rel="noopener nofollow">細胞質</a>中
-<br>附著於<a data-tooltip-position="top" aria-label="內質網 > ^c1f61d" data-href="內質網#^c1f61d" href="生物/細胞/細胞中的構造/細胞質中的構造/內質網.html#^c1f61d" class="internal-link" target="_self" rel="noopener nofollow">粗糙內質網</a>表面
-<br>存在於<a data-href="葉綠體" href="生物/細胞/細胞中的構造/細胞質中的構造/葉綠體.html" class="internal-link" target="_self" rel="noopener nofollow">葉綠體</a>
-<br>存在於<a data-href="粒線體" href="生物/細胞/細胞中的構造/細胞質中的構造/粒線體.html" class="internal-link" target="_self" rel="noopener nofollow">粒線體</a>
-核糖體
-雙層膜構造
-外膜光滑
-內膜凹凸 <br>行<a data-href="呼吸作用" href="生物/生物體的能量/呼吸作用.html" class="internal-link" target="_self" rel="noopener nofollow">呼吸作用</a>（<a data-href="代謝作用" href="生物/生物體的能量/代謝作用.html" class="internal-link" target="_self" rel="noopener nofollow">代謝作用</a>）
-產生能量
-是一種半自主胞器 含有自己的DNA
-<br>含有<a data-href="核糖體" href="生物/細胞/細胞中的構造/細胞質中的構造/核糖體.html" class="internal-link" target="_self" rel="noopener nofollow">核糖體</a> 粒線體
-染色體解體後所產生的
-可以組成染色體 DNA
-<br><a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a> 絲狀結構
-染色質由核苷酸聚合而成
-五碳醣（可能變動）
-含氮鹼基（可能變動） A（DNA/RNA）：腺嘌呤（可以與T、U配對）
-T（DNA）：胸腺嘧啶
-G（DNA/RNA）：鳥糞嘌呤
-C（DNA/RNA）：胞嘧啶
-U（RNA）：脲嘧啶 磷酸基
-Important
-DNA:去氧核糖核酸 = 去氧核糖核苷酸雙股聚合
-RNA:核糖核酸 = 核糖核苷酸單股聚合
-核酸Note
-就是常聽到的「脂肪」或「油」 一個甘油
-三條脂肪酸 一個甘油
-兩條脂肪酸
-一個含磷的分子團
-脂質無法作為細胞能量來源可以調節細胞代謝維生素Note
-醣的類別記為「醣」
-而細分後的種類通常是用「糖」
-（肝醣是例外） 核糖 去氧核糖 葡萄糖
-半乳糖
-果糖 蔗糖 葡萄糖＋果糖 麥芽糖 兩個葡萄糖 乳糖 葡萄糖＋半乳糖 澱粉
-纖維素
-肝醣
-醣類科學史
-1879年 弗萊明發現細胞染色後可以看見絲狀物
-1888年 科學界正式將此絲狀物命名為「染色體」 <br>由<a data-href="染色質" href="生物/細胞/細胞分裂/染色質.html" class="internal-link" target="_self" rel="noopener nofollow">染色質</a>聚合而成 交叉處稱為中結 中結上有著絲點，由兩個蛋白質所組成 只有在要複製後要準備分裂時才會形成二分體（常見的X形染色體） 分裂前不會看到染色體
-Important
-並非「染色體複製」而是「染色質複製後纏繞成染色體」 由兩個親代分別提供一半
-型態與構造基本相同
-Note 人類是雙倍體，一對X一組O同源染色體有兩條（2n）。
-小麥是七倍體，一組同源染色體有七條（7n）。
-n 是單位，代表一組同源染色體中有幾條。 <br>染色體複製後的兩條相同染色體，即為<a data-tooltip-position="top" aria-label="^dddd53" data-href="#^dddd53" href="#^dddd53" class="internal-link" target="_self" rel="noopener nofollow">二分體</a>中的兩股。
-<br>透過中結來計算，兩條共用一個<a data-tooltip-position="top" aria-label="^08dabf" data-href="#^08dabf" href="#^08dabf" class="internal-link" target="_self" rel="noopener nofollow">中結</a>
-染色體Note 人體配子即為精子與卵子
-人體配子由生殖母細胞減數分裂而成 精母細胞進行染色體複製，形成「初級精母細胞」
-「初級精母細胞」進行減數分裂第一階段，形成二個「次級精母細胞」
-「次級精母細胞」進行減數分裂第二階段，形成共四個精細胞 卵母細胞進行染色體複製，形成「初級卵母細胞」
-「初級卵母細胞」進行減數分裂第一階段，形成一個「次級卵母細胞」及一個極體
-「次級卵母細胞」進行減數分裂第二階段，形成一個「卵細胞」及一個極體
-人體卵細胞進行減數分裂時，會發生不均勻的細胞質分裂。 卵子獲得較多的細胞質
-極體獲得較少的細胞質 沒有受精能力
-人體配子完成染色質與胞器的複製
-染色質纏繞成姐妹染色體，以中結連接成二分體
-<br>聯會<a data-footref="1" href="#fn-1-31396b8e2e3a7086" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>，形成四分體
-中心粒延伸出紡錘絲，並與二分體著絲點連接
-中心粒拉著四分體移動至細胞中央排成一排
-同源染色體分離，兩個二分體分別分離到不同的子細胞中，並向細胞兩堆移動 中心粒延伸出紡錘絲，並與二分體著絲點連接（染色體不複製）
-中心粒拉著二分體移動至細胞中央排成一排
-姐妹染色體分離
-<br><img src="https://lh3.googleusercontent.com/-tooazAR3nGU/UtVSHbF0IKI/AAAAAAAATK4/kBgKYRAurrs/s640/ch_gene_c2b.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
-形成分裂溝<br>
-<img src="https://www.jove.com/files/media/science-education/science-education-thumbs/12067.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
-分配胞器
-<br>子細胞形成（例如形成<a data-href="人體配子" href="生物/細胞/人體配子.html" class="internal-link" target="_self" rel="noopener nofollow">人體配子</a>） <br>聯會：指兩個二分體（同源染色體）相疊，形成四分體。<a href="#fnref-1-31396b8e2e3a7086" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
-減數分裂完成染色質與胞器的複製
-<br><a data-href="染色質" href="生物/細胞/細胞分裂/染色質.html" class="internal-link" target="_self" rel="noopener nofollow">染色質</a>纏繞成姐妹染色體，以中結連接成二分體
-中心粒附近形成出紡錘絲，並與二分體著絲點連接
-中心粒拉著二分體移動至細胞中央排成一排
-中心粒協助姐妹染色體分離，並向細胞兩堆移動 形成分裂溝<br>
-<img src="https://www.jove.com/files/media/science-education/science-education-thumbs/12067.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
-分配胞器
-子細胞形成 用液泡集中來將纖維素排列到中間
-液泡融合來讓纖維素相織再一起，形成細胞板<br>
-<img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/573714.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
-分配胞器
-子細胞形成
-有絲分裂細胞的構造英文：Note
-（翻譯作「原生質膜」）
-也能代表細胞膜
-但是 是「細胞的膜」
-而 則是「膜」的本身 兩層磷脂質 磷脂質中鑲嵌著一些蛋白質（蛋白質會流動但是範圍有限）
-- 協助物質進出
-- 作為激素受體
-Note
-流體鑲嵌模型 可以用來辨識細胞是體內還是外來（例如：ANO血型） 可以隔開細胞內外的含水環境。
-細胞膜無膜可以被稱為胞器嗎？
-科學界尚無定論
-膜狀胞器的優點？
-可以避免細胞內的不同化學反應互相干擾
-細胞質
-多醣體
-醣蛋白
-<br><a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>
-（簡單的物質） 肽聚糖 幾丁質 纖維素
-細胞壁水為細胞中含量最多的物質，其次為蛋白質細胞的組成Note 細胞從生長到分裂成兩個子細胞的反覆過程
-不包含減數分裂 細胞週期有90%的時間都屬於間期 為細胞分裂準備 製造酵素
-製造蛋白質 進行染色質與胞器的複製
-<br>進入<a data-href="#2. 細胞分裂期" href="生物/卡片盒/細胞.html#2._細胞分裂期_0" class="internal-link" target="_self" rel="noopener nofollow">2. 細胞分裂期</a> <br><a class="internal-link" data-href="有絲分裂#細胞核分裂" href="生物/細胞/細胞分裂/有絲分裂.html#細胞核分裂" target="_self" rel="noopener nofollow">細胞核分裂</a>：<a data-href="有絲分裂" href="生物/細胞/細胞分裂/有絲分裂.html" class="internal-link" target="_self" rel="noopener nofollow">有絲分裂</a>
-<br><a class="internal-link" data-href="有絲分裂#細胞質分裂" href="生物/細胞/細胞分裂/有絲分裂.html#細胞質分裂" target="_self" rel="noopener nofollow">細胞質分裂</a>：細胞整體分裂、胞器分配
-<br>回到<a data-href="#1. 間期" href="生物/卡片盒/細胞.html#1._間期_0" class="internal-link" target="_self" rel="noopener nofollow">1. 間期</a>
-細胞週期細胞分裂蛋白質
-沒有細胞核 → 也沒有膜狀胞器
-大多數具有細胞壁（例外：黴漿菌）
-雖然沒有細胞核，但有遺傳物質。遺傳物質會在細胞質中的特定區域，沒有被膜包起來。
-有核糖體 真的有細胞核的細胞
-細胞內有細胞核 → 有膜狀胞器
-通常會有原核細胞的約10倍大
-通常約為 10~100 𝜇𝑚
-原核細胞與真核細胞<br><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a>約為 1~100 𝜇𝑚Note
-註釋：𝜇 代表 10^-6
-↑
-互相影響
-↓<br><a data-href="原核細胞與真核細胞" href="生物/細胞/原核細胞與真核細胞.html" class="internal-link" target="_self" rel="noopener nofollow">原核細胞與真核細胞</a><br>參考資料：<a data-href="細胞學說" href="生物/細胞/細胞學說.html" class="internal-link" target="_self" rel="noopener nofollow">細胞學說</a>細胞Note
-ATP 和 ADP 都是核苷酸
-組成： "A"是指含氮鹼基（ATGCU）中的腺嘌呤（A）
-組成 ATP/ADP 的另一要素是核糖
-ATP/ADP 還有包含一個磷酸基 有三個磷酸基
-在 ATP 變成 ADP 的過程中，會有一個磷酸基脫離，並釋放能量。 有二個磷酸基
-在 ADP 變成 ATP 的過程中，會加上一個磷酸基，並吸收能量。
-Note
-計算生物體能量含量時，通常使用ATP與ADP的比值，而非ATP的絕對含量。
-能量載體
-小分子合成成大分子
-反應所消耗的能量 &gt; 釋放出的能量
-Example 葡萄糖合成為肝醣 大分子分解成小分子
-釋放出的能量 &gt; 反應所消耗的能量
-Example 葡萄糖分解為二氧化碳與水 <br>能量如何儲存？
-儲存在<a data-href="能量載體" href="生物/生物體的能量/能量載體.html" class="internal-link" target="_self" rel="noopener nofollow">能量載體</a>中！
-代謝作用所有生物體的能量來源皆是直接或間接來自光能可以直接轉化光能來取得能量化學簡式 醣類即為能量所儲存的地方化學簡式：化學簡式 呼吸作用透過分解（氧化）存有能量的醣類來釋放能量，將能量暫存於ATP中。透過攝取植物來取得能量生物體的能量來源Note 由光合色素（包含葉綠素等）參與反應
-NADP 是輔酶的一種
-H 的移動即可視為質子的移動。 化學式（並非最完整） Important 光反應吸收光以提供能量 被「光解」 Note 碳來自環境中的 能量來自光反應
-NADP 是輔酶的一種
-H 的移動即可視為質子的移動。 化學式（並非最完整） 光合作用Note
-呼吸作用定義：分解有機化合物，釋出能量的過程
-呼吸作用步驟：先將葡萄糖分解為「丙酮酸」（糖解作用），接著才會分為有氧呼吸與發酵作用
-<br>Note
-反應地點：<a data-href="細胞質" href="生物/細胞/細胞中的構造/細胞質.html" class="internal-link" target="_self" rel="noopener nofollow">細胞質</a>
-概念化學式 Note
-反應地點：粒線體
-概念化學式 Note 反應地點：細胞質
-反應發生在：酵母菌、植物細胞
-不產生能量 概念化學式 Note 反應地點：細胞質
-反應發生在：乳酸菌、動物肌肉細胞 概念化學式 呼吸作用]]></description><link>生物/卡片盒/細胞.html</link><guid isPermaLink="false">生物/卡片盒/細胞.canvas</guid><pubDate>Thu, 30 Oct 2025 07:40:05 GMT</pubDate><enclosure url="https://ehanlin-keyword.s3.amazonaws.com/image/668570.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://ehanlin-keyword.s3.amazonaws.com/image/668570.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[演化與分類]]></title><description><![CDATA[例外物種的分類物種的演化<a href=".?query=tag:科學史" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#科學史">#科學史</a> 18 世紀時由布豐提出
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[課程筆記]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>課程筆記</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 06 Nov 2025 01:42:10 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 06 Nov 2025 01:41:26 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[化學反應熱]]></title><description><![CDATA[
+當物質發生物理或化學變化時，會伴隨著能量的變化
+動能、熱能、光能、電能的互相轉換 以 表示
+通常以 或 為單位
+物質本身的熱含量無法測量絕對數值，只能測量能量差 化學反應前後熱含量的變化，稱為反應熱，以 表示。 與反應莫耳數成正比
+]]></description><link>化學/化學反應熱.html</link><guid isPermaLink="false">化學/化學反應熱.md</guid><pubDate>Thu, 06 Nov 2025 01:39:47 GMT</pubDate></item><item><title><![CDATA[第二單元]]></title><description><![CDATA[化學式化合物的種類化學鍵
+主要分布於週期表的左側及中央部分
+佔總元素的四分之三 金屬為電的良導體
+溫度越高，導電性越低
+雜質越多，導電性越低 金屬為熱的良導體 多數金屬具有高熔點、光澤及高延展性
+多數金屬室溫為固態 Hg 為唯一室溫下已液態狀態存在的金屬 大部分金屬氧化物溶於水為鹼性
+金屬
+多數屬於半導體
+導電性介於金屬與非金屬之間
+隨著溫度上升，導電性增加
+含有微量雜質會使導電性俱增
+類金屬
+非金屬為電的不良導體
+例外：石墨可導電 非金屬為熱的不良導體 低熔點、低沸點
+溴為室溫下唯一液態存在的非金屬元素
+金屬氧化物溶於水為酸性
+非金屬
+僅以實驗式表示
+金屬晶體是原子互相堆疊而成的巨大結構，不會單獨存在 高熔點
+高沸點
+熱的良導體：因為<a data-tooltip-position="top" aria-label="金屬鍵 > ^f40d00" data-href="金屬鍵#^f40d00" href="化學/物質/化學鍵/金屬鍵.html#^f40d00" class="internal-link" target="_self" rel="noopener nofollow">自由電子</a>移動（電子海）
+<br>電的良導體：因為<a data-tooltip-position="top" aria-label="金屬鍵 > ^f40d00" data-href="金屬鍵#^f40d00" href="化學/物質/化學鍵/金屬鍵.html#^f40d00" class="internal-link" target="_self" rel="noopener nofollow">自由電子</a>移動（電子海）
+溫度上升、導電性下降
+<br>具有高延性、展性：因為<a data-tooltip-position="top" aria-label="金屬鍵 > ^f40d00" data-href="金屬鍵#^f40d00" href="化學/物質/化學鍵/金屬鍵.html#^f40d00" class="internal-link" target="_self" rel="noopener nofollow">電子海</a>包圍，金屬原子不容易因為同性相斥而導致斷裂
+金屬晶體
+共用價電子對所組成的化學鍵結
+<br>原子傾向共用價電子以滿足<a data-href="八隅體規則" href="化學/原子/原子說與相關理論/八隅體規則.html" class="internal-link" target="_self" rel="noopener nofollow">八隅體規則</a> 由一對共用電子所組成 由兩對共用電子所組成 由三對共用電子所組成
+共價鍵離子鍵
+所有金屬原子都會提供自己的價電子
+所有價電子被釋出，形成陽離子
+所有價電子可以自由移動，形成電子海
+金屬陽離子為有秩序的整齊結構，被電子海所包圍
+電子海不屬於任何一個金屬楊離子 電子海中的自由電子與金屬陽離子之間的吸引力
+金屬鍵<br><img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/554674.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+共用的價電子對，稱為鍵結電子對 為共用的成對價電子，稱為孤電子對
+化學鍵不同種類的物質性質比較
+<br>以<a data-href="實驗式" href="化學/化學式/實驗式.html" class="internal-link" target="_self" rel="noopener nofollow">實驗式</a>表示
+以共價鍵結合，形成二維或三圍無限延伸的結構
+共價鍵的鍵結力比分子間作用力強，共價網狀固體比分子固體有較高的熔點、沸點和硬度
+共價網狀化合物
+<br>以<a data-href="離子鍵" href="化學/物質/化學鍵/離子鍵.html" class="internal-link" target="_self" rel="noopener nofollow">離子鍵</a>結合的化合物
+離子化合物
+<br>以<a data-href="共價鍵" href="化學/物質/化學鍵/共價鍵.html" class="internal-link" target="_self" rel="noopener nofollow">共價鍵</a>形成的化合物
+<br>因為<a data-href="原子" href="化學/原子/原子的結構/原子.html" class="internal-link" target="_self" rel="noopener nofollow">原子</a>以共價鍵結合，為電中性，本身不帶電
+固態或熔融狀態都難以導電
+有些酸鹼性共價化合物溶於水後會因為解離產生離子而具有導電性
+共價化合物
+表示物質組成最簡單化學式，又稱為簡式
+化合物在實驗室中分析後決定的化學式
+可以表明分子中所含的原子種類和個數的最簡單整數比
+實驗式中各元素的原子量總和稱為式量 透過化學式中的原子個數與原子量計算出元素的重量百分比 實驗式化學式
+表示物質實際組成的化學式
+能夠表明單一分子中所含的原子種類和原子個數的總數
+<br>分子式為<a data-href="實驗式" href="化學/化學式/實驗式.html" class="internal-link" target="_self" rel="noopener nofollow">實驗式</a>的倍數
+<br>分子量為<a data-tooltip-position="top" aria-label="實驗式 > ^89c7ab" data-href="實驗式#^89c7ab" href="化學/化學式/實驗式.html#^89c7ab" class="internal-link" target="_self" rel="noopener nofollow">式量</a>的倍數
+分子式
+透過元素，分析化合物中所含的元素質量所佔的百分比 透過化學反應，分析生成物的組成，轉換成莫耳數來推測反應物的實驗式
+<br>根據<a data-href="質量守恆定律" href="化學/原子/原子說與相關理論/質量守恆定律.html" class="internal-link" target="_self" rel="noopener nofollow">質量守恆定律</a> 元素分析
+基於事實，不可臆測 反應物在反應式左邊，生成物在反應式右邊 註明物質的狀態 如有需要，註明反應式所需要的條件 如有需要，註明反應式揮發或沉澱的狀況 化學反應式
+表達分子於三度空間中的相對位置
+<br><img src="https://o.quizlet.com/Uzo4ht6K1JXpBNv2vhEmwg.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved"><br><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Proline_model.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved"><br><img src="https://thumb.ac-illust.com/bb/bb52210d751884772402648b1f66137f_t.jpeg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">結構式
+<br>表示物質中含有何種<a data-href="官能基" href="化學/官能基.html" class="internal-link" target="_self" rel="noopener nofollow">官能基</a>的化學式
+能表明分子中所含的原子種類、原子個數和官能基
+可以顯示其特性
+示性式是結構式的簡化
+示性式
+可以表示物質特性的原子或原子團
+R代表CnHm官能基
+在化學反應中會完全用完的反應物，它決定了反應能產生多少產物
+限量試劑]]></description><link>化學/卡片盒/第二單元.html</link><guid isPermaLink="false">化學/卡片盒/第二單元.canvas</guid><pubDate>Thu, 06 Nov 2025 01:20:03 GMT</pubDate><enclosure url="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/554674.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/554674.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[限量試劑]]></title><description><![CDATA[
+在化學反應中會完全用完的反應物，它決定了反應能產生多少產物
+]]></description><link>化學/限量試劑.html</link><guid isPermaLink="false">化學/限量試劑.md</guid><pubDate>Thu, 06 Nov 2025 01:19:23 GMT</pubDate></item><item><title><![CDATA[演化與分類]]></title><description><![CDATA[例外物種的分類物種的演化<a href=".?query=tag:科學史" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#科學史">#科學史</a> 18 世紀時由布豐提出
 觀察化石特徵與歸納 推測時間會影響物種的外觀
 18 世紀時由拉馬克提出
 比對現有的物種和化石樣本 發現生物會變化
@@ -433,10 +144,10 @@ Example F與E的親緣關係比A與E還要來得近 當發現新的證據，就�
 親緣關係
 <br>基於<a data-tooltip-position="top" aria-label="分子生物學的中心法則" data-href="分子生物學的中心法則" href="生物/遺傳/遺傳學／分子生物學/分子生物學的中心法則.html" class="internal-link" target="_self" rel="noopener nofollow">分子生物學</a> <br>認為 <a data-href="DNA" href="生物/遺傳/遺傳學／分子生物學/dna.html" class="internal-link" target="_self" rel="noopener nofollow">DNA</a> 的突變大多數都是中性的 <br>「中性」代表 DNA 不見得為影響到<a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>與<a data-href="性狀" href="生物/遺傳/遺傳學／分子生物學/性狀.html" class="internal-link" target="_self" rel="noopener nofollow">性狀</a>的表現
 <br>因為即便含氮鹼基突變，該密碼子所對應的蛋白質仍然可能相同，就不會影響到<a data-href="蛋白質表現" href="生物/遺傳/遺傳學／分子生物學/蛋白質表現.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質表現</a>
-DNA 突變沒有好壞之分 <br>認為多數演化主要是因為遺傳漂變<a data-footref="1" href="#fn-1-fb1c341245663565" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>影響
+DNA 突變沒有好壞之分 <br>認為多數演化主要是因為遺傳漂變<a data-footref="1" href="#fn-1-b748c0dd7c4b97ba" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>影響
 <br>認為<a data-tooltip-position="top" aria-label="天擇說" data-href="天擇說" href="生物/物種的演化/天擇說.html" class="internal-link" target="_self" rel="noopener nofollow">天擇</a>無法作用在中性突變的<a data-href="等位基因" href="生物/遺傳/遺傳學／分子生物學/等位基因/等位基因.html" class="internal-link" target="_self" rel="noopener nofollow">等位基因</a>上
 天擇是作用在性狀上，使不利存活個體被篩選掉
-等位基因的存留與否，是隨機且沒有方向性的 <br>粗略的概念是：即便配子是隨機配對的，等位基因的組成仍然會趨近於一個穩定的狀態。<a href="#fnref-1-fb1c341245663565" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+等位基因的存留與否，是隨機且沒有方向性的 <br>粗略的概念是：即便配子是隨機配對的，等位基因的組成仍然會趨近於一個穩定的狀態。<a href="#fnref-1-b748c0dd7c4b97ba" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
 中性演化理論<br>可以幫助更準確的<a data-tooltip-position="top" aria-label="物種的分類" data-href="物種的分類" href="生物/物種的分類/物種的分類.html" class="internal-link" target="_self" rel="noopener nofollow">分類</a>
 <br>例如<a data-tooltip-position="top" aria-label="絕對地質年代 > ^97bf70" data-href="絕對地質年代#^97bf70" href="地球科學/地質年代/絕對地質年代.html" class="internal-link" target="_self" rel="noopener nofollow">放射性定年法</a>
 比對現存物種的構造
@@ -445,13 +156,378 @@ Example 人類的尾椎 功能相同，但構造不同
 無法被視為親緣關係的依據
 Example 體溫適應 透過胚胎的發育過程判斷親緣
 在胚胎發育過程中可能有類似構造，但是發育成個體後消失或是轉換功能
-<br>分析<a data-href="核酸" href="生物/細胞/細胞中的化學物質/核酸.html" class="internal-link" target="_self" rel="noopener nofollow">核酸</a>與<a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>的差異比對物種和化石的地理分布，分析親緣關係物種演化的證據]]></description><link>生物/卡片盒/演化與分類.html</link><guid isPermaLink="false">生物/卡片盒/演化與分類.canvas</guid><pubDate>Thu, 30 Oct 2025 06:33:08 GMT</pubDate><enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tevenphage.svg/330px-Tevenphage.svg.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tevenphage.svg/330px-Tevenphage.svg.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[中性演化理論]]></title><description><![CDATA[
+<br>分析<a data-href="核酸" href="生物/細胞/細胞中的化學物質/核酸.html" class="internal-link" target="_self" rel="noopener nofollow">核酸</a>與<a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>的差異比對物種和化石的地理分布，分析親緣關係物種演化的證據]]></description><link>生物/卡片盒/演化與分類.html</link><guid isPermaLink="false">生物/卡片盒/演化與分類.canvas</guid><pubDate>Mon, 03 Nov 2025 02:58:21 GMT</pubDate><enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tevenphage.svg/330px-Tevenphage.svg.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tevenphage.svg/330px-Tevenphage.svg.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[細胞]]></title><description><![CDATA[分類形成細胞的構造組成細胞的化學物質細胞的分裂細胞的能量
+單層膜構成的泡狀物 在植物細胞中比較多、比較明顯
+在動物細胞中比較少、不明顯 維持細胞形狀
+細胞代謝物質
+儲存物質： 水
+色素
+礦物質
+細胞代謝的廢物 Note
+巨噬細胞內部用來放被吞噬細胞用的液泡會稱為「吞噬體」。
+液泡<img src="https://ehanlin-keyword.s3.amazonaws.com/image/668570.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">分為：
+扁囊狀
+<br>上面附著<a data-href="核糖體" href="生物/細胞/細胞中的構造/細胞質中的構造/核糖體.html" class="internal-link" target="_self" rel="noopener nofollow">核糖體</a>（所以「粗糙」） <br>表面附著的核糖體會合成<a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>
+蛋白質隨即進入粗糙內質網
+粗糙內質網在酵素協助上修飾與運輸蛋白質 一端連著細胞核，一端向細胞膜延伸 管狀構成的網狀結構 和脂質的合成與運輸有關 一端連著細胞核，一端向細胞膜延伸
+內質網
+<br>由<a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>組成 由兩個管狀構造的中心粒構成一個中心體 細胞分裂時協助染色體分離 位於細胞核附近
+動物細胞中有
+植物細胞通常沒有
+Important
+沒有中心粒的情況下，還是可以形成紡錘絲
+中心粒與紡錘絲
+染色體解體後所產生的
+可以組成染色體 DNA
+<br><a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a> 絲狀結構
+染色質細胞的構造英文：Note
+（翻譯作「原生質膜」）
+也能代表細胞膜
+但是 是「細胞的膜」
+而 則是「膜」的本身 兩層磷脂質 磷脂質中鑲嵌著一些蛋白質（蛋白質會流動但是範圍有限）
+- 協助物質進出
+- 作為激素受體
+Note
+流體鑲嵌模型 可以用來辨識細胞是體內還是外來（例如：ANO血型） 可以隔開細胞內外的含水環境。
+細胞膜無膜可以被稱為胞器嗎？
+科學界尚無定論
+膜狀胞器的優點？
+可以避免細胞內的不同化學反應互相干擾
+細胞質
+多醣體
+醣蛋白
+<br><a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>
+（簡單的物質） 肽聚糖 幾丁質 纖維素
+細胞壁由核苷酸聚合而成
+五碳醣（可能變動）
+含氮鹼基（可能變動） A（DNA/RNA）：腺嘌呤（可以與T、U配對）
+T（DNA）：胸腺嘧啶
+G（DNA/RNA）：鳥糞嘌呤
+C（DNA/RNA）：胞嘧啶
+U（RNA）：脲嘧啶 磷酸基
+Important
+DNA:去氧核糖核酸 = 去氧核糖核苷酸雙股聚合
+RNA:核糖核酸 = 核糖核苷酸單股聚合
+核酸Note
+就是常聽到的「脂肪」或「油」 一個甘油
+三條脂肪酸 一個甘油
+兩條脂肪酸
+一個含磷的分子團
+脂質無法作為細胞能量來源可以調節細胞代謝維生素Note
+醣的類別記為「醣」
+而細分後的種類通常是用「糖」
+（肝醣是例外） 核糖 去氧核糖 葡萄糖
+半乳糖
+果糖 蔗糖 葡萄糖＋果糖 麥芽糖 兩個葡萄糖 乳糖 葡萄糖＋半乳糖 澱粉
+纖維素
+肝醣
+醣類科學史
+1879年 弗萊明發現細胞染色後可以看見絲狀物
+1888年 科學界正式將此絲狀物命名為「染色體」 <br>由<a data-href="染色質" href="生物/細胞/細胞分裂/染色質.html" class="internal-link" target="_self" rel="noopener nofollow">染色質</a>聚合而成 交叉處稱為中結 中結上有著絲點，由兩個蛋白質所組成 只有在要複製後要準備分裂時才會形成二分體（常見的X形染色體） 分裂前不會看到染色體
+Important
+並非「染色體複製」而是「染色質複製後纏繞成染色體」 由兩個親代分別提供一半
+型態與構造基本相同
+Note 人類是雙倍體，一對X一組O同源染色體有兩條（2n）。
+小麥是七倍體，一組同源染色體有七條（7n）。
+n 是單位，代表一組同源染色體中有幾條。 <br>染色體複製後的兩條相同染色體，即為<a data-tooltip-position="top" aria-label="^dddd53" data-href="#^dddd53" href="#^dddd53" class="internal-link" target="_self" rel="noopener nofollow">二分體</a>中的兩股。
+<br>透過中結來計算，兩條共用一個<a data-tooltip-position="top" aria-label="^08dabf" data-href="#^08dabf" href="#^08dabf" class="internal-link" target="_self" rel="noopener nofollow">中結</a>
+染色體Note 人體配子即為精子與卵子
+人體配子由生殖母細胞減數分裂而成 精母細胞進行染色體複製，形成「初級精母細胞」
+「初級精母細胞」進行減數分裂第一階段，形成二個「次級精母細胞」
+「次級精母細胞」進行減數分裂第二階段，形成共四個精細胞 卵母細胞進行染色體複製，形成「初級卵母細胞」
+「初級卵母細胞」進行減數分裂第一階段，形成一個「次級卵母細胞」及一個極體
+「次級卵母細胞」進行減數分裂第二階段，形成一個「卵細胞」及一個極體
+人體卵細胞進行減數分裂時，會發生不均勻的細胞質分裂。 卵子獲得較多的細胞質
+極體獲得較少的細胞質 沒有受精能力
+人體配子完成染色質與胞器的複製
+染色質纏繞成姐妹染色體，以中結連接成二分體
+<br>聯會<a data-footref="1" href="#fn-1-fee065258160431e" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>，形成四分體
+中心粒延伸出紡錘絲，並與二分體著絲點連接
+中心粒拉著四分體移動至細胞中央排成一排
+同源染色體分離，兩個二分體分別分離到不同的子細胞中，並向細胞兩堆移動 中心粒延伸出紡錘絲，並與二分體著絲點連接（染色體不複製）
+中心粒拉著二分體移動至細胞中央排成一排
+姐妹染色體分離
+<br><img src="https://lh3.googleusercontent.com/-tooazAR3nGU/UtVSHbF0IKI/AAAAAAAATK4/kBgKYRAurrs/s640/ch_gene_c2b.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+形成分裂溝<br>
+<img src="https://www.jove.com/files/media/science-education/science-education-thumbs/12067.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+分配胞器
+<br>子細胞形成（例如形成<a data-href="人體配子" href="生物/細胞/人體配子.html" class="internal-link" target="_self" rel="noopener nofollow">人體配子</a>） <br>聯會：指兩個二分體（同源染色體）相疊，形成四分體。<a href="#fnref-1-fee065258160431e" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+減數分裂完成染色質與胞器的複製
+<br><a data-href="染色質" href="生物/細胞/細胞分裂/染色質.html" class="internal-link" target="_self" rel="noopener nofollow">染色質</a>纏繞成姐妹染色體，以中結連接成二分體
+中心粒附近形成出紡錘絲，並與二分體著絲點連接
+中心粒拉著二分體移動至細胞中央排成一排
+中心粒協助姐妹染色體分離，並向細胞兩堆移動 形成分裂溝<br>
+<img src="https://www.jove.com/files/media/science-education/science-education-thumbs/12067.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+分配胞器
+子細胞形成 用液泡集中來將纖維素排列到中間
+液泡融合來讓纖維素相織再一起，形成細胞板<br>
+<img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/573714.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+分配胞器
+子細胞形成
+有絲分裂水為細胞中含量最多的物質，其次為蛋白質細胞的組成
+控制物質進出細胞核 核糖體（細胞核→細胞質）
+RNA（細胞核→細胞質） 可能有一個或數個
+合成核糖體的場所
+主要成分 RNA
+<br><a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>（維持穩定狀態） 細胞核內的膠狀物質
+<br>可能散佈著<a data-href="染色質" href="生物/細胞/細胞分裂/染色質.html" class="internal-link" target="_self" rel="noopener nofollow">染色質</a>
+細胞核
+雙層膜
+基質 葉綠餅 類囊體堆疊而成 彼此間有連結，而非獨立胞器
+具有光合色素 <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chloroplast_II-zh-hant.svg/500px-Chloroplast_II-zh-hant.svg.png" referrerpolicy="no-referrer" target="_self" class="is-unresolved">葉綠體<br><img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/573745.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+扁囊狀
+構造沒有內質網這麼複雜
+不會跟核膜有連結
+可以產生運輸囊泡 細胞的分泌中心，在有分泌功能的細胞中特別發達
+運輸、儲存
+修飾要分泌的物質
+變成囊泡來將物質分泌出去
+高基氏體<br><img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/694706.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+RNA
+<br><a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a> 無膜
+顆粒狀構造
+分為兩個次單元 大次單元
+小次單元 <br>兩個次單元皆由<a data-tooltip-position="top" aria-label="細胞核 > ^2125f8" data-href="細胞核#^2125f8" href="生物/細胞/細胞中的構造/細胞核.html#^2125f8" class="internal-link" target="_self" rel="noopener nofollow">核仁</a>製造，並於<a data-tooltip-position="top" aria-label="細胞核 > ^6e0f84" data-href="細胞核#^6e0f84" href="生物/細胞/細胞中的構造/細胞核.html#^6e0f84" class="internal-link" target="_self" rel="noopener nofollow">核質</a>中組成為完整的核糖體。 用來合成蛋白質。 <br>分散於<a data-href="細胞質" href="生物/細胞/細胞中的構造/細胞質.html" class="internal-link" target="_self" rel="noopener nofollow">細胞質</a>中
+<br>附著於<a data-tooltip-position="top" aria-label="內質網 > ^c1f61d" data-href="內質網#^c1f61d" href="生物/細胞/細胞中的構造/細胞質中的構造/內質網.html#^c1f61d" class="internal-link" target="_self" rel="noopener nofollow">粗糙內質網</a>表面
+<br>存在於<a data-href="葉綠體" href="生物/細胞/細胞中的構造/細胞質中的構造/葉綠體.html" class="internal-link" target="_self" rel="noopener nofollow">葉綠體</a>
+<br>存在於<a data-href="粒線體" href="生物/細胞/細胞中的構造/細胞質中的構造/粒線體.html" class="internal-link" target="_self" rel="noopener nofollow">粒線體</a>
+核糖體
+雙層膜構造
+外膜光滑
+內膜凹凸 <br>行<a data-href="呼吸作用" href="生物/生物體的能量/呼吸作用.html" class="internal-link" target="_self" rel="noopener nofollow">呼吸作用</a>（<a data-href="代謝作用" href="生物/生物體的能量/代謝作用.html" class="internal-link" target="_self" rel="noopener nofollow">代謝作用</a>）
+產生能量
+是一種半自主胞器 含有自己的DNA
+<br>含有<a data-href="核糖體" href="生物/細胞/細胞中的構造/細胞質中的構造/核糖體.html" class="internal-link" target="_self" rel="noopener nofollow">核糖體</a> 粒線體Note 細胞從生長到分裂成兩個子細胞的反覆過程
+不包含減數分裂 細胞週期有90%的時間都屬於間期 為細胞分裂準備 製造酵素
+製造蛋白質 進行染色質與胞器的複製
+<br>進入<a data-href="#2. 細胞分裂期" href="生物/卡片盒/細胞.html#2._細胞分裂期_0" class="internal-link" target="_self" rel="noopener nofollow">2. 細胞分裂期</a> <br><a class="internal-link" data-href="有絲分裂#細胞核分裂" href="生物/細胞/細胞分裂/有絲分裂.html#細胞核分裂" target="_self" rel="noopener nofollow">細胞核分裂</a>：<a data-href="有絲分裂" href="生物/細胞/細胞分裂/有絲分裂.html" class="internal-link" target="_self" rel="noopener nofollow">有絲分裂</a>
+<br><a class="internal-link" data-href="有絲分裂#細胞質分裂" href="生物/細胞/細胞分裂/有絲分裂.html#細胞質分裂" target="_self" rel="noopener nofollow">細胞質分裂</a>：細胞整體分裂、胞器分配
+<br>回到<a data-href="#1. 間期" href="生物/卡片盒/細胞.html#1._間期_0" class="internal-link" target="_self" rel="noopener nofollow">1. 間期</a>
+細胞週期細胞分裂蛋白質
+沒有細胞核 → 也沒有膜狀胞器
+大多數具有細胞壁（例外：黴漿菌）
+雖然沒有細胞核，但有遺傳物質。遺傳物質會在細胞質中的特定區域，沒有被膜包起來。
+有核糖體 真的有細胞核的細胞
+細胞內有細胞核 → 有膜狀胞器
+通常會有原核細胞的約10倍大
+通常約為 10~100 𝜇𝑚
+原核細胞與真核細胞<br><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="代謝作用.md" href="生物/生物體的能量/代謝作用.html" target="_self" rel="noopener nofollow"></a>約為 1~100 𝜇𝑚Note
+註釋：𝜇 代表 10^-6
+↑
+互相影響
+↓<br><a data-href="原核細胞與真核細胞" href="生物/細胞/原核細胞與真核細胞.html" class="internal-link" target="_self" rel="noopener nofollow">原核細胞與真核細胞</a><br>參考資料：<a data-href="細胞學說" href="生物/細胞/細胞學說.html" class="internal-link" target="_self" rel="noopener nofollow">細胞學說</a>細胞Note
+ATP 和 ADP 都是核苷酸
+組成： "A"是指含氮鹼基（ATGCU）中的腺嘌呤（A）
+組成 ATP/ADP 的另一要素是核糖
+ATP/ADP 還有包含一個磷酸基 有三個磷酸基
+在 ATP 變成 ADP 的過程中，會有一個磷酸基脫離，並釋放能量。 有二個磷酸基
+在 ADP 變成 ATP 的過程中，會加上一個磷酸基，並吸收能量。
+Note
+計算生物體能量含量時，通常使用ATP與ADP的比值，而非ATP的絕對含量。
+能量載體
+小分子合成成大分子
+反應所消耗的能量 &gt; 釋放出的能量
+Example 葡萄糖合成為肝醣 大分子分解成小分子
+釋放出的能量 &gt; 反應所消耗的能量
+Example 葡萄糖分解為二氧化碳與水 <br>能量如何儲存？
+儲存在<a data-href="能量載體" href="生物/生物體的能量/能量載體.html" class="internal-link" target="_self" rel="noopener nofollow">能量載體</a>中！
+代謝作用所有生物體的能量來源皆是直接或間接來自光能可以直接轉化光能來取得能量化學簡式 醣類即為能量所儲存的地方化學簡式：化學簡式 呼吸作用透過分解（氧化）存有能量的醣類來釋放能量，將能量暫存於ATP中。透過攝取植物來取得能量生物體的能量來源Note 由光合色素（包含葉綠素等）參與反應
+NADP 是輔酶的一種
+H 的移動即可視為質子的移動。 化學式（並非最完整） Important 光反應吸收光以提供能量 被「光解」 Note 碳來自環境中的 能量來自光反應
+NADP 是輔酶的一種
+H 的移動即可視為質子的移動。 化學式（並非最完整） 光合作用Note
+呼吸作用定義：分解有機化合物，釋出能量的過程
+呼吸作用步驟：先將葡萄糖分解為「丙酮酸」（糖解作用），接著才會分為有氧呼吸與發酵作用
+<br>Note
+反應地點：<a data-href="細胞質" href="生物/細胞/細胞中的構造/細胞質.html" class="internal-link" target="_self" rel="noopener nofollow">細胞質</a>
+概念化學式 Note
+反應地點：粒線體
+概念化學式 Note 反應地點：細胞質
+反應發生在：酵母菌、植物細胞
+不產生能量 概念化學式 Note 反應地點：細胞質
+反應發生在：乳酸菌、動物肌肉細胞 概念化學式 呼吸作用]]></description><link>生物/卡片盒/細胞.html</link><guid isPermaLink="false">生物/卡片盒/細胞.canvas</guid><pubDate>Thu, 30 Oct 2025 07:45:13 GMT</pubDate><enclosure url="https://ehanlin-keyword.s3.amazonaws.com/image/668570.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://ehanlin-keyword.s3.amazonaws.com/image/668570.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[遺傳]]></title><description><![CDATA[片段遺傳學等位基因孟德爾的遺傳法則遺傳工程
+反覆執行自交
+直到產生的子代性狀與親代完全相同 自己跟自己交配 相同基因型的交配
+孟德爾用來產生「純品系」的植株
+不同表現型的個體交配 不同基因型的個體交配 未知基因型的顯性個體與已知基因型的隱性個體交配
+為了要確認顯性性狀個體的基因型，透過與隱性性狀個體交配來確認基因型 雄雌表徵互換的交配
+用來檢驗性別對於子代基因型的影響 遺傳實驗的實驗用語
+孟德爾想要知道，兩種「純品系但不同表現型」的植株交配（雜交）後會產生何種表現型的植株 試驗植株皆為<a data-tooltip-position="top" aria-label="遺傳實驗的實驗用語.md > ^4e1a56" data-href="遺傳實驗的實驗用語.md#^4e1a56" href="生物/遺傳/孟德爾的遺傳法則/遺傳實驗的實驗用語.html#^4e1a56" class="internal-link" target="_self" rel="noopener nofollow">純品系</a> 只會有兩種不同的表現型 兩種不同表現型的純品系植株雜交
+第一子代皆為「同一種表現型」
+定義剩下的同一性狀為「顯性表徵」 第一子代進行自交
+第二子代出現了「第一子代」沒有、但親代出現過的表徵
+定義親代有、第一子代沒有、第二子代出現的性狀為「隱性表徵」
+第二子代中顯性表徵與隱性表徵的個體數量比為 3:1
+所有基因型可能的組合皆有出現 在這兩次的遺傳實驗中，只出現了顯性表徵與隱性表徵兩種，沒有其他表徵或中間型態的表徵 推測有某種「隱藏起來的」因素能夠控制表現型
+推測不只有一個因素能夠控制，因此假設有兩個遺傳因子一同控制→當時孟德爾並不確定此主張是否正確
+假設顯性表徵的遺傳因子為大寫字母，隱性表徵的遺傳因子為小寫字母 孟德爾利用二項分析（即棋盤方格法）分析表現型與基因型的組合
+純品系→雜交→第一子代 顯性性狀：隱性性狀＝3：1
+第一子代→自交→第二子代 顯性性狀：隱性性狀＝3：1
+孟德爾是用數學計算，當時並無棋盤方格法概念
+顯性未知基因型的植株與隱性植株試交
+假設顯性未知基因型的植株基因型為Pp 假設中，試交結果顯性隱性植株數量比應為 1:1
+若假設成立，則符合棋盤方格法推導結果 不討論隱性表徵的植株，因為隱性表徵植株必為純品系
+只拿第二子代中的顯性表徵植株進行自交
+透過第三子代的結果來回推第二子代中的純品系數量
+實驗結果發現「顯性純品系與顯性非純品系」的比例為 1:2 因此第二子代中
+顯性純品系：顯性非純品系：隱性（純品系）
+= 1:2:1
+完全符合二項分布的推導結果，證實單性雜交實驗結論成立 單性雜交實驗
+雌雄蕊同株 雌雄蕊皆包覆在花蕊中 避免外界干擾
+在授粉時可以確定一定是相對應植株的花粉 自花授粉/自交 有利於實驗時間的縮短
+可以在有效時間內做足夠的實驗搜集大量數據 方便統計數據與分析
+方便比較與計算比例
+歸納出分離律
+一次觀察多種性狀
+發現遺傳因子間彼此不互相影響
+歸納出獨立分配論孟德爾的遺傳實驗
+一次觀察兩種不同性狀 <br>無論要觀察的性狀為何，試驗植株皆需要為<a data-tooltip-position="top" aria-label="遺傳實驗的實驗用語.md > ^4e1a56" data-href="遺傳實驗的實驗用語.md#^4e1a56" href="生物/遺傳/孟德爾的遺傳法則/遺傳實驗的實驗用語.html#^4e1a56" class="internal-link" target="_self" rel="noopener nofollow">純品系</a>
+實驗組別： 「黃色圓皮」與「綠色皺皮」 「黃色圓皮」與「綠色皺皮」的純品系植株雜交
+第一子代皆為「黃色圓皮」
+定義「黃色圓皮」為顯性 "YR"
+實驗結果幾乎與單性雜交實驗相同
+第一子代進行自交
+第二子代出現了「第一子代」沒有、但親代出現過的「綠色皺皮」表徵
+定義「綠色皺皮」為隱性 "yr"
+第二子代中顯性表徵與隱性表徵的個體數量比為 3:1
+所有基因型可能的組合皆有出現
+實驗結果幾乎與單性雜交實驗相同
+黃色：綠色＝3：1
+圓皮：皺皮＝3：1
+與單性雜交實驗相同，可以用分離率解釋
+黃圓：黃皺：綠圓：綠皺＝9：3：3：1
+雙性雜交實驗主要的重大收穫顯性一定配顯性
+黃圓：黃皺：綠圓：綠皺＝3：0：0：1
+分別統計，黃色：綠色仍為3：1、圓皮：皺皮仍為3：1（符合分離率）
+顯性一定配隱性
+黃圓：黃皺：綠圓：綠皺＝2：1：1：0
+分別統計，黃色：綠色仍為3：1、圓皮：皺皮仍為3：1（符合分離率）
+如果黃綠、圓皺「部分」不服從「獨立分配率」，子代表徵狀況會如何分布？雙性雜交實驗Info 約於1865年左右發表
+當時還沒有基因的概念
+發表當時沒有直接被科學界認可 並非使用英文發表
+使用了大量的數學論證，並非生物學家常見方法 約到1900年才開始被科學界重視→孟德爾遺傳法則的再發現 開始有大量的研究引用孟德爾的遺傳法則
+開始被證實 <br>發現<a data-href="細胞分裂" href="生物/細胞/細胞分裂/細胞分裂.html" class="internal-link" target="_self" rel="noopener nofollow">細胞分裂</a>與<a data-href="染色體" href="生物/細胞/細胞分裂/染色體.html" class="internal-link" target="_self" rel="noopener nofollow">染色體</a>時，並非為了證實遺傳法則 但是卻因此而發現遺傳與細胞分裂與基因有重要連結 認為有「遺傳因子」 遺傳因子成對
+遺傳因子會彼此分離進入配子
+配子結合後，遺傳因子會再次回復成一對 <br>此定律來自「<a data-tooltip-position="top" aria-label="孟德爾的遺傳實驗.md > ^154f58" data-href="孟德爾的遺傳實驗.md#^154f58" href="生物/遺傳/孟德爾的遺傳法則/孟德爾的遺傳實驗.html#^154f58" class="internal-link" target="_self" rel="noopener nofollow">單性雜交實驗</a>」的實驗結果
+分為「顯性」與「隱性」 顯性與隱性同時出現時，只會顯出顯性的遺傳性狀 後來發現很多性狀的表現並非由單一一對的遺傳因子產生 僅適用於孟德爾的遺傳實驗
+因此後來不將此律視為廣泛使用的遺傳法則 <br><a data-tooltip-position="top" aria-label="單基因遺傳 > ^3c29ad" data-href="單基因遺傳#^3c29ad" href="生物/遺傳/遺傳學／分子生物學/等位基因/單基因遺傳.html#^3c29ad" class="internal-link" target="_self" rel="noopener nofollow">共顯性遺傳</a>
+<br><a data-tooltip-position="top" aria-label="單基因遺傳 > ^d6898f" data-href="單基因遺傳#^d6898f" href="生物/遺傳/遺傳學／分子生物學/等位基因/單基因遺傳.html#^d6898f" class="internal-link" target="_self" rel="noopener nofollow">不完全顯性遺傳</a> 遺傳因子的分離不會受到其他遺傳因子的影響 遺傳因子彼此之間在分離時沒有相關聯或彼此影響
+遺傳因子皆為獨立分離與分配 遺傳因子在分離隨機進入配子，不受其他遺傳因子影響
+<br>此定律來自「<a data-tooltip-position="top" aria-label="孟德爾的遺傳實驗.md > ^8cbcaf" data-href="孟德爾的遺傳實驗.md#^8cbcaf" href="生物/遺傳/孟德爾的遺傳法則/孟德爾的遺傳實驗.html#^8cbcaf" class="internal-link" target="_self" rel="noopener nofollow">雙性雜交實驗</a>」的實驗結果孟德爾的遺傳法則<br><a href=".?query=tag:科學史" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#科學史">#科學史</a> <br>同源染色體分離現象：符合「<a data-tooltip-position="top" aria-label="孟德爾的遺傳法則 > ^672337" data-href="孟德爾的遺傳法則#^672337" href="生物/遺傳/孟德爾的遺傳法則/孟德爾的遺傳法則.html#^672337" class="internal-link" target="_self" rel="noopener nofollow">分離率</a>」
+<br>非同源染色體不互相干擾：符合「<a data-tooltip-position="top" aria-label="孟德爾的遺傳法則 > ^490c55" data-href="孟德爾的遺傳法則#^490c55" href="生物/遺傳/孟德爾的遺傳法則/孟德爾的遺傳法則.html#^490c55" class="internal-link" target="_self" rel="noopener nofollow">獨立分配律</a>」
+由 Sutton 於 1902 年發現由 Boveri 於 1904 年發現染色體學說遺傳<br><a href=".?query=tag:科學史" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#科學史">#科學史</a> <br>已知遺傳因子在<a data-href="染色體" href="生物/細胞/細胞分裂/染色體.html" class="internal-link" target="_self" rel="noopener nofollow">染色體</a>上
+<br>染色體包含<a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>與<a data-href="DNA" href="生物/遺傳/遺傳學／分子生物學/dna.html" class="internal-link" target="_self" rel="noopener nofollow">DNA</a>
+究竟「蛋白質」或「DNA」誰是遺傳因子？
+染色體上的蛋白質含量遠高於DNA
+蛋白質可能由超過20種胺基酸組成，比只可能由4種核苷酸組成的DNA要複雜許多
+於 1928 年證實 菌種表現型 光滑型細菌：會致死
+粗糙型細菌：不會致死 實驗流程 將已經死亡的光滑型細菌注入小鼠體內，小鼠存活。
+將已經死亡的光滑型細菌與粗糙型細菌一同注入小鼠體內，小鼠死亡。 結論：光滑型細菌會以某種物質將性狀轉移至粗糙型細菌，稱為轉型作用於 1944 年證實
+實驗流程 以水解酶將蛋白質與RNA分解
+<br><a data-tooltip-position="top" aria-label="遺傳因子之爭 > ^5079ce" data-href="遺傳因子之爭#^5079ce" href="生物/遺傳/遺傳學／分子生物學/遺傳因子之爭.html#^5079ce" class="internal-link" target="_self" rel="noopener nofollow">轉型作用</a>依然發生 於 1952 年證實
+實驗流程 <br>利用噬菌體，分別以放射性元素標定<a data-footref="1" href="#fn-1-a6770e04cf3595c3" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>蛋白質的硫、DNA中的磷。
+發現具放射性的磷出現於受感染的細菌體內 結論：DNA中所含的磷會參與遺傳，證實DNA參與遺傳 <br>將標定的元素變為具有放射性元素，已追蹤。<a href="#fnref-1-a6770e04cf3595c3" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+遺傳因子之爭
+<br>位於同源<a data-href="染色體" href="生物/細胞/細胞分裂/染色體.html" class="internal-link" target="_self" rel="noopener nofollow">染色體</a>上相同位置的<a data-href="基因" href="生物/遺傳/遺傳學／分子生物學/基因.html" class="internal-link" target="_self" rel="noopener nofollow">基因</a>
+等位基因組「不一定」只有兩條，要看同源染色體的倍數（幾n） <br><a data-href="等位基因" href="生物/遺傳/遺傳學／分子生物學/等位基因/等位基因.html" class="internal-link" target="_self" rel="noopener nofollow">等位基因</a>的組合就稱為基因型
+同型合子
+等位基因相同
+Example
+例如：PP、pp 異型合子
+等位基因不同
+Example
+例如：Pp Example 例如ABO血型，總共由三種基因型操控一個性狀 Example 例如身高，同時由多組等位基因操縱一個性狀 等位基因
+又稱為「基因工程」
+操控或改造生物基因，改變其性狀 <br>攜帶目標<a data-href="基因" href="生物/遺傳/遺傳學／分子生物學/基因.html" class="internal-link" target="_self" rel="noopener nofollow">基因</a>進入細胞
+<br>載體：細菌<a data-href="質體" href="生物/遺傳/質體.html" class="internal-link" target="_self" rel="noopener nofollow">質體</a>或病毒的DNA 限制酶：切割DNA
+連接酶：連接DNA片段 <br>將<a data-tooltip-position="top" aria-label="^8e15e0" data-href="#^8e15e0" href="#^8e15e0" class="internal-link" target="_self" rel="noopener nofollow">重組</a>後的DNA轉殖進入細胞之中
+遺傳工程<br><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a><a class="internal-link" data-href="遺傳工程.md" href="生物/遺傳工程.html" target="_self" rel="noopener nofollow"></a>&gt;[!note] 常見於細菌<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Plasmid_%28english%29.svg/500px-Plasmid_%28english%29.svg.png" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+獨立於染色體DNA之外的一小段環狀DNA
+與生物本身功能與運作無關
+生物體沒有質體仍然可以生存
+可以轉錄、轉譯產生相對應的蛋白質
+在細胞分裂時也可以複製繁殖
+<br>可以用於<a data-href="遺傳工程" href="生物/遺傳工程.html" class="internal-link" target="_self" rel="noopener nofollow">遺傳工程</a>
+質體<br>被視為<a data-href="分子生物學的中心法則" href="生物/遺傳/遺傳學／分子生物學/分子生物學的中心法則.html" class="internal-link" target="_self" rel="noopener nofollow">分子生物學的中心法則</a><br>發生在<a data-href="細胞核" href="生物/細胞/細胞中的構造/細胞核.html" class="internal-link" target="_self" rel="noopener nofollow">細胞核</a>中
+透過RNA聚合酶以單股DNA作為模板，進行含氮鹼基配對。 原本DNA中是「A→T」，在RNA中會以U替代T，變為「A→U」。 <br><img src="https://www.ansforce.com/upload/posts/12/S1-p1123/5a49e21794853.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved"><br>發生在<a data-href="核糖體" href="生物/細胞/細胞中的構造/細胞質中的構造/核糖體.html" class="internal-link" target="_self" rel="noopener nofollow">核糖體</a>中
+[!warning] 核苷酸與胺基酸並非一一對應，而是三個對應一個<br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Aminoacids_table.svg/640px-Aminoacids_table.svg.png" referrerpolicy="no-referrer" target="_self" class="is-unresolved"> 將RNA中密碼子配對至對應的胺基酸
+RNA中三個核苷酸為一個密碼子 轉譯起點為AUG，作為蛋白質配對的開始，對應到的蛋白質為亞硫胺酸 (Met) 轉譯起點為UAA、UAG或UGG，作為蛋白質配對的結束
+蛋白質表現<br><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Centraldogma_nodetails.png" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+DNA製造RNA
+RNA製造蛋白質
+蛋白質協助「DNA製造RNA」
+蛋白質協助「RNA製造蛋白質」
+蛋白質協助「DNA自我複製」
+遺傳訊息傳遞到蛋白質後，不能夠傳遞回核酸
+例外：有些病毒可以把訊息自RNA逆轉錄回DNA中 分子生物學的中心法則
+<br><a data-href="性狀" href="生物/遺傳/遺傳學／分子生物學/性狀.html" class="internal-link" target="_self" rel="noopener nofollow">性狀</a>表現的差異
+<br>與<a data-href="性狀" href="生物/遺傳/遺傳學／分子生物學/性狀.html" class="internal-link" target="_self" rel="noopener nofollow">性狀</a>並不相同
+<br>「性徵」是將「<a data-href="性狀" href="生物/遺傳/遺傳學／分子生物學/性狀.html" class="internal-link" target="_self" rel="noopener nofollow">性狀</a>」與「表徵」合併敘述，容易混淆表徵
+<br><a data-href="性狀" href="生物/遺傳/遺傳學／分子生物學/性狀.html" class="internal-link" target="_self" rel="noopener nofollow">性狀</a>的基本單位
+基因型並非探討基因本身，而是等位基因的組合
+<br>可以進行<a data-href="蛋白質表現" href="生物/遺傳/遺傳學／分子生物學/蛋白質表現.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質表現</a>的<a data-href="DNA" href="生物/遺傳/遺傳學／分子生物學/dna.html" class="internal-link" target="_self" rel="noopener nofollow">DNA</a>片段
+<br>蛋白質會影響<a data-href="表徵" href="生物/遺傳/遺傳學／分子生物學/表徵.html" class="internal-link" target="_self" rel="noopener nofollow">表徵</a>
+基因於 1919 年證實
+<br>開啟「<a data-href="遺傳因子之爭" href="生物/遺傳/遺傳學／分子生物學/遺傳因子之爭.html" class="internal-link" target="_self" rel="noopener nofollow">遺傳因子之爭</a>」
+於 1953 年提出<br><img src="https://www.genome.gov/sites/default/files/media/images/2024-05/DNA_2024a.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+雙股去氧核糖聚核苷酸鏈 只有雙股（兩條）構成的才是DNA
+雙股平行螺旋→更加穩定（纏繞） 核苷酸與含氮鹼基互相連接 <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/DNA_replication_zh.png/500px-DNA_replication_zh.png" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+透過DNA聚合酶以單股DNA作為模板，進行含氮鹼基配對。
+雙股同時進行複製
+一股是新的、一股是舊的（因此稱為半保留複製）
+DNA
+基因藉由蛋白質表現來產生性狀
+<br>生物體的特徵本體（例如：眼睛的「顏色」；而「藍色、棕色、黑色」則是<a data-href="表徵" href="生物/遺傳/遺傳學／分子生物學/表徵.html" class="internal-link" target="_self" rel="noopener nofollow">表徵</a>） <br>性狀的決定因子是「<a data-href="等位基因" href="生物/遺傳/遺傳學／分子生物學/等位基因/等位基因.html" class="internal-link" target="_self" rel="noopener nofollow">等位基因</a>組」 性狀是由決定因子來決定，但由於性狀是藉由蛋白質表現，因此可能有其他因素影響到性狀的表現 細胞本身基因的變異
+在等位基因配對以外所產生的新可能
+基因重組：
+在減數分裂的過程中，可能因為交換DNA等各種因素，導致基因重組，進而影響性狀
+突變：
+遺傳物質「根本性」的改變 核酸
+鹼基對：鹼基對本身也可能產生變異，例如配對錯誤 導致基因改變，影響基因的結構，進而影響性狀
+突變本身沒有好壞，但很多容易被發現的突變會帶來負面影響，相比之下，正面影響不容易被發現。 生物體外的物理與化學環境因素可能影響性狀表現
+Note 繡球花因為土壤酸鹼（影響鋁分子吸收）而改變花色
+喜馬拉雅兔因為環境溫度影響酵素活性，影響黑色素的生成，進而造成毛色受到影響 性狀
+只由一組等位基因操控某一性狀
+一組等位基因中，等位基因的數量不一定 例如豌豆性狀，只有顯性或隱性性狀 兩個等位基因皆為顯性，對表現型有相同影響力
+兩個顯性可以同時出現
+Note
+例如MN血型中，只有M、N兩種基因，但有M、N、MN三種血型 共顯性遺傳與複等位基因無關 顯性與隱性之間有介於顯隱性之間的過渡形態（類似(1+1)÷2，而非同時出現）
+因此無法判斷顯性或隱性
+Note
+例如紫茉莉花色中，只有R、R'兩種基因，表現型可以對應到紅、白、粉紅 一組等位基因中有兩種以上的等位基因可能 <br>符合<a data-tooltip-position="top" aria-label="^3c29ad" data-href="#^3c29ad" href="#^3c29ad" class="internal-link" target="_self" rel="noopener nofollow">共顯性遺傳</a> 有四種等位基因（有順序），一組只會有兩種基因 C+：全色
+Cch：銀灰色
+Ch：黑尾黑肢
+C：全白 越前面的基因會蓋過越後面的基因→前面的基因會對後面的基因呈現顯性
+Note
+例如： 銀灰色＋全白，只會顯示銀灰色
+全色＋黑尾黑枝，只會顯示全色 不符合共顯性遺傳 非不完全顯性遺傳 複等位基因遺傳一定是共顯性遺傳嗎？
+不是！
+單基因遺傳
+同時由多個等位基因組控制同一個性狀，又稱為數量遺傳
+全部等位基因組加起來的顯性多寡，會影響表現型 最高身高
+膚色深淺 多基因遺傳
+與性別有關的遺傳 性別本身就是性狀（性染色體）
+性染色體會決定性別，但性別不一定是由性染色體決定 等位基因位於性染色體上
+每一種性聯遺傳的疾病或性狀的遺傳規則都不一定相同
+因為X染色體較長，所以有很多等位基因位於X染色體上 如果Y染色體上沒有相對應的等位基因，就很容易直接顯示出隱性的表徵 Note
+人類：色盲、血友病、蠶豆症等
+貓：毛色
+性聯遺傳
+因為繁殖快速，可以用來生產藥物或特殊物質。 增加產值、產生藥物原料 增加抗害能力→增加產值 避免受到病蟲害
+避免受到除草劑影響 增加營養價值
+基因改造並非萬能
+因為雜交而散播受改造的基因
+使害蟲產生抗藥性
+影響到生物圈或食物鏈的其他物種（例如類似害蟲的其他物種） <br>因為基因改造改變<a data-href="代謝" href="生物/生命現象/代謝.html" class="internal-link" target="_self" rel="noopener nofollow">代謝</a>的過程，因而產生原本不存在的代謝物質 <br>因為在<a data-tooltip-position="top" aria-label="蛋白質表現" data-href="蛋白質表現" href="生物/遺傳/遺傳學／分子生物學/蛋白質表現.html" class="internal-link" target="_self" rel="noopener nofollow">產生目標的蛋白質</a>時，可能產生其他額外的物質 難以確認是否100%安全 基因改造的不確定性
+基因改造「好不好」？ 一定有好處
+造成其他風險 基因改造生物]]></description><link>生物/卡片盒/遺傳.html</link><guid isPermaLink="false">生物/卡片盒/遺傳.canvas</guid><pubDate>Thu, 30 Oct 2025 07:45:04 GMT</pubDate><enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Plasmid_%28english%29.svg/500px-Plasmid_%28english%29.svg.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Plasmid_%28english%29.svg/500px-Plasmid_%28english%29.svg.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[中性演化理論]]></title><description><![CDATA[
 基於<a data-tooltip-position="top" aria-label="分子生物學的中心法則" data-href="分子生物學的中心法則" href="生物/遺傳/遺傳學／分子生物學/分子生物學的中心法則.html" class="internal-link" target="_self" rel="noopener nofollow">分子生物學</a> <br>認為 <a data-href="DNA" href="生物/遺傳/遺傳學／分子生物學/dna.html" class="internal-link" target="_self" rel="noopener nofollow">DNA</a> 的突變大多數都是中性的 <br>「中性」代表 DNA 不見得為影響到<a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>與<a data-href="性狀" href="生物/遺傳/遺傳學／分子生物學/性狀.html" class="internal-link" target="_self" rel="noopener nofollow">性狀</a>的表現
 <br>因為即便含氮鹼基突變，該密碼子所對應的蛋白質仍然可能相同，就不會影響到<a data-href="蛋白質表現" href="生物/遺傳/遺傳學／分子生物學/蛋白質表現.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質表現</a>
-DNA 突變沒有好壞之分 <br>認為多數演化主要是因為遺傳漂變<a data-footref="1" href="#fn-1-4fd98c23c172f353" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>影響
+DNA 突變沒有好壞之分 <br>認為多數演化主要是因為遺傳漂變<a data-footref="1" href="#fn-1-31fb85e48e3728b6" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>影響
 <br>認為<a data-tooltip-position="top" aria-label="天擇說" data-href="天擇說" href="生物/物種的演化/天擇說.html" class="internal-link" target="_self" rel="noopener nofollow">天擇</a>無法作用在中性突變的<a data-href="等位基因" href="生物/遺傳/遺傳學／分子生物學/等位基因/等位基因.html" class="internal-link" target="_self" rel="noopener nofollow">等位基因</a>上
 天擇是作用在性狀上，使不利存活個體被篩選掉
-等位基因的存留與否，是隨機且沒有方向性的 <br>粗略的概念是：即便配子是隨機配對的，等位基因的組成仍然會趨近於一個穩定的狀態。<a href="#fnref-1-4fd98c23c172f353" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+等位基因的存留與否，是隨機且沒有方向性的 <br>粗略的概念是：即便配子是隨機配對的，等位基因的組成仍然會趨近於一個穩定的狀態。<a href="#fnref-1-31fb85e48e3728b6" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
 ]]></description><link>生物/物種的演化/中性演化理論.html</link><guid isPermaLink="false">生物/物種的演化/中性演化理論.md</guid><pubDate>Thu, 30 Oct 2025 06:23:15 GMT</pubDate></item><item><title><![CDATA[病毒]]></title><description><![CDATA[
 沒有完整<a data-href="細胞的構造" href="生物/細胞/細胞的構造.html" class="internal-link" target="_self" rel="noopener nofollow">細胞的構造</a>
 <br>沒有<a data-tooltip-position="top" aria-label="生物體的能量來源" data-href="生物體的能量來源" href="生物/生物體的能量/生物體的能量來源.html" class="internal-link" target="_self" rel="noopener nofollow">產生能量</a>的酵素系統
@@ -469,7 +545,7 @@ Example 流感病毒不會感染植物 並非每個病毒都有
 雖然在大多數生物體中，DNA為雙股、RNA為單股，但在病毒中則不一定。遺傳物質為雙股DNA或單股RNA的病毒較其他組合的遺傳物質還要多種。RNA 病毒較 DNA 病毒不穩定，更加容易變異。
 專門感染細菌的病毒<br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tevenphage.svg/330px-Tevenphage.svg.png" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
-]]></description><link>生物/病毒.html</link><guid isPermaLink="false">生物/病毒.md</guid><pubDate>Thu, 30 Oct 2025 06:07:53 GMT</pubDate><enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tevenphage.svg/330px-Tevenphage.svg.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tevenphage.svg/330px-Tevenphage.svg.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[六界三域系統]]></title><description><![CDATA[
+]]></description><link>生物/病毒.html</link><guid isPermaLink="false">生物/病毒.md</guid><pubDate>Thu, 30 Oct 2025 06:07:53 GMT</pubDate><enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tevenphage.svg/330px-Tevenphage.svg.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tevenphage.svg/330px-Tevenphage.svg.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[六界三域系統]]></title><description><![CDATA[
 因為分子生物學，將原核生物界細分為真細菌與古細菌 新增「域」，分為真細菌域、古細菌域和真核生物域 為目前科學界的主要共識 細胞壁成分是幾丁質
 Example 酵母菌
 蕈菇 沒有細胞核
@@ -510,7 +586,7 @@ Example 甲烷菌
 任何節點都可以旋轉，所代表的親緣關係相同 左右順序沒有太大意義 判斷共同祖先的先後
 比較經過的演化事件次數
 Example F與E的親緣關係比A與E還要來得近 當發現新的證據，就有可能需要將親緣關係樹重新進行排列
-]]></description><link>生物/物種的演化/親緣關係.html</link><guid isPermaLink="false">生物/物種的演化/親緣關係.md</guid><pubDate>Thu, 30 Oct 2025 03:36:01 GMT</pubDate><enclosure url="https://biodiv.tw/biodiv_upload/files/%E5%9C%96%E4%B8%89%E3%80%81%E5%90%84%E7%A8%AE%E4%B8%8D%E5%90%8C%E5%BD%A2%E7%8B%80%E7%9A%84%E5%88%86%E6%94%AF%E5%9C%96%EF%BC%8C%E4%BD%86%E5%AE%83%E5%80%91%E4%BB%A3%E8%A1%A8%E7%9A%84%E7%89%A9%E4%BB%B6%E7%9B%B8%E4%BA%92%E9%97%9C%E4%BF%82%E9%83%BD%E4%B8%80%E6%A8%A3%E3%80%82%281%29.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://biodiv.tw/biodiv_upload/files/%E5%9C%96%E4%B8%89%E3%80%81%E5%90%84%E7%A8%AE%E4%B8%8D%E5%90%8C%E5%BD%A2%E7%8B%80%E7%9A%84%E5%88%86%E6%94%AF%E5%9C%96%EF%BC%8C%E4%BD%86%E5%AE%83%E5%80%91%E4%BB%A3%E8%A1%A8%E7%9A%84%E7%89%A9%E4%BB%B6%E7%9B%B8%E4%BA%92%E9%97%9C%E4%BF%82%E9%83%BD%E4%B8%80%E6%A8%A3%E3%80%82%281%29.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[物種演化的證據]]></title><description><![CDATA[可以幫助更準確的<a data-tooltip-position="top" aria-label="物種的分類" data-href="物種的分類" href="生物/物種的分類/物種的分類.html" class="internal-link" target="_self" rel="noopener nofollow">分類</a>
+]]></description><link>生物/物種的演化/親緣關係.html</link><guid isPermaLink="false">生物/物種的演化/親緣關係.md</guid><pubDate>Thu, 30 Oct 2025 03:36:01 GMT</pubDate><enclosure url="https://biodiv.tw/biodiv_upload/files/%E5%9C%96%E4%B8%89%E3%80%81%E5%90%84%E7%A8%AE%E4%B8%8D%E5%90%8C%E5%BD%A2%E7%8B%80%E7%9A%84%E5%88%86%E6%94%AF%E5%9C%96%EF%BC%8C%E4%BD%86%E5%AE%83%E5%80%91%E4%BB%A3%E8%A1%A8%E7%9A%84%E7%89%A9%E4%BB%B6%E7%9B%B8%E4%BA%92%E9%97%9C%E4%BF%82%E9%83%BD%E4%B8%80%E6%A8%A3%E3%80%82%281%29.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://biodiv.tw/biodiv_upload/files/%E5%9C%96%E4%B8%89%E3%80%81%E5%90%84%E7%A8%AE%E4%B8%8D%E5%90%8C%E5%BD%A2%E7%8B%80%E7%9A%84%E5%88%86%E6%94%AF%E5%9C%96%EF%BC%8C%E4%BD%86%E5%AE%83%E5%80%91%E4%BB%A3%E8%A1%A8%E7%9A%84%E7%89%A9%E4%BB%B6%E7%9B%B8%E4%BA%92%E9%97%9C%E4%BF%82%E9%83%BD%E4%B8%80%E6%A8%A3%E3%80%82%281%29.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[物種演化的證據]]></title><description><![CDATA[可以幫助更準確的<a data-tooltip-position="top" aria-label="物種的分類" data-href="物種的分類" href="生物/物種的分類/物種的分類.html" class="internal-link" target="_self" rel="noopener nofollow">分類</a>
 <br>例如<a data-tooltip-position="top" aria-label="絕對地質年代 > ^97bf70" data-href="絕對地質年代#^97bf70" href="地球科學/地質年代/絕對地質年代.html" class="internal-link" target="_self" rel="noopener nofollow">放射性定年法</a>
 比對現存物種的構造
 跨物種骨骼上的共同基本構造 已經失去功能的同源構造
@@ -534,7 +610,7 @@ Example 體溫適應 透過胚胎的發育過程判斷親緣
 可以轉錄、轉譯產生相對應的蛋白質
 在細胞分裂時也可以複製繁殖
 <br>可以用於<a data-href="遺傳工程" href="生物/遺傳工程.html" class="internal-link" target="_self" rel="noopener nofollow">遺傳工程</a>
-]]></description><link>生物/遺傳/質體.html</link><guid isPermaLink="false">生物/遺傳/質體.md</guid><pubDate>Wed, 29 Oct 2025 03:52:10 GMT</pubDate><enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Plasmid_%28english%29.svg/500px-Plasmid_%28english%29.svg.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Plasmid_%28english%29.svg/500px-Plasmid_%28english%29.svg.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[基因改造生物]]></title><description><![CDATA[
+]]></description><link>生物/遺傳/質體.html</link><guid isPermaLink="false">生物/遺傳/質體.md</guid><pubDate>Wed, 29 Oct 2025 03:52:10 GMT</pubDate><enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Plasmid_%28english%29.svg/500px-Plasmid_%28english%29.svg.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Plasmid_%28english%29.svg/500px-Plasmid_%28english%29.svg.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[基因改造生物]]></title><description><![CDATA[
 因為繁殖快速，可以用來生產藥物或特殊物質。 增加產值、產生藥物原料 增加抗害能力→增加產值 避免受到病蟲害
 避免受到除草劑影響 增加營養價值
 基因改造並非萬能
@@ -611,7 +687,7 @@ Example
 [!warning] 核苷酸與胺基酸並非一一對應，而是三個對應一個<br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Aminoacids_table.svg/640px-Aminoacids_table.svg.png" referrerpolicy="no-referrer" target="_self" class="is-unresolved"> 將RNA中密碼子配對至對應的胺基酸
 RNA中三個核苷酸為一個密碼子 轉譯起點為AUG，作為蛋白質配對的開始，對應到的蛋白質為亞硫胺酸 (Met) 轉譯起點為UAA、UAG或UGG，作為蛋白質配對的結束
-]]></description><link>生物/遺傳/遺傳學／分子生物學/蛋白質表現.html</link><guid isPermaLink="false">生物/遺傳/遺傳學／分子生物學/蛋白質表現.md</guid><pubDate>Sat, 11 Oct 2025 08:35:18 GMT</pubDate><enclosure url="https://www.ansforce.com/upload/posts/12/S1-p1123/5a49e21794853.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://www.ansforce.com/upload/posts/12/S1-p1123/5a49e21794853.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[遺傳]]></title><link>生物/遺傳/遺傳學／分子生物學/遺傳.html</link><guid isPermaLink="false">生物/遺傳/遺傳學／分子生物學/遺傳.md</guid><pubDate>Sat, 11 Oct 2025 08:35:08 GMT</pubDate></item><item><title><![CDATA[DNA]]></title><description><![CDATA[於 1919 年證實
+]]></description><link>生物/遺傳/遺傳學／分子生物學/蛋白質表現.html</link><guid isPermaLink="false">生物/遺傳/遺傳學／分子生物學/蛋白質表現.md</guid><pubDate>Sat, 11 Oct 2025 08:35:18 GMT</pubDate><enclosure url="https://www.ansforce.com/upload/posts/12/S1-p1123/5a49e21794853.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://www.ansforce.com/upload/posts/12/S1-p1123/5a49e21794853.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[遺傳]]></title><link>生物/遺傳/遺傳學／分子生物學/遺傳.html</link><guid isPermaLink="false">生物/遺傳/遺傳學／分子生物學/遺傳.md</guid><pubDate>Sat, 11 Oct 2025 08:35:08 GMT</pubDate></item><item><title><![CDATA[DNA]]></title><description><![CDATA[於 1919 年證實
 開啟「<a data-href="遺傳因子之爭" href="生物/遺傳/遺傳學／分子生物學/遺傳因子之爭.html" class="internal-link" target="_self" rel="noopener nofollow">遺傳因子之爭</a>」
 於 1953 年提出<br><img src="https://www.genome.gov/sites/default/files/media/images/2024-05/DNA_2024a.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
 雙股去氧核糖聚核苷酸鏈 只有雙股（兩條）構成的才是DNA
@@ -619,7 +695,7 @@ RNA中三個核苷酸為一個密碼子 轉譯起點為AUG，作為蛋白質配�
 透過DNA聚合酶以單股DNA作為模板，進行含氮鹼基配對。
 雙股同時進行複製
 一股是新的、一股是舊的（因此稱為半保留複製）
-]]></description><link>生物/遺傳/遺傳學／分子生物學/dna.html</link><guid isPermaLink="false">生物/遺傳/遺傳學／分子生物學/DNA.md</guid><pubDate>Sat, 11 Oct 2025 08:34:57 GMT</pubDate><enclosure url="https://www.genome.gov/sites/default/files/media/images/2024-05/DNA_2024a.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://www.genome.gov/sites/default/files/media/images/2024-05/DNA_2024a.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[基因]]></title><description><![CDATA[
+]]></description><link>生物/遺傳/遺傳學／分子生物學/dna.html</link><guid isPermaLink="false">生物/遺傳/遺傳學／分子生物學/DNA.md</guid><pubDate>Sat, 11 Oct 2025 08:34:57 GMT</pubDate><enclosure url="https://www.genome.gov/sites/default/files/media/images/2024-05/DNA_2024a.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://www.genome.gov/sites/default/files/media/images/2024-05/DNA_2024a.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[基因]]></title><description><![CDATA[
 <a data-href="性狀" href="生物/遺傳/遺傳學／分子生物學/性狀.html" class="internal-link" target="_self" rel="noopener nofollow">性狀</a>的基本單位
 基因型並非探討基因本身，而是等位基因的組合
 <br>可以進行<a data-href="蛋白質表現" href="生物/遺傳/遺傳學／分子生物學/蛋白質表現.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質表現</a>的<a data-href="DNA" href="生物/遺傳/遺傳學／分子生物學/dna.html" class="internal-link" target="_self" rel="noopener nofollow">DNA</a>片段
@@ -631,7 +707,7 @@ RNA中三個核苷酸為一個密碼子 轉譯起點為AUG，作為蛋白質配�
 連接酶：連接DNA片段 <br>將<a data-tooltip-position="top" aria-label="^8e15e0" data-href="#^8e15e0" href="#^8e15e0" class="internal-link" target="_self" rel="noopener nofollow">重組</a>後的DNA轉殖進入細胞之中
 ]]></description><link>生物/遺傳工程.html</link><guid isPermaLink="false">生物/遺傳工程.md</guid><pubDate>Fri, 10 Oct 2025 07:55:22 GMT</pubDate></item><item><title><![CDATA[減數分裂]]></title><description><![CDATA[完成染色質與胞器的複製
 染色質纏繞成姐妹染色體，以中結連接成二分體
-聯會<a data-footref="1" href="#fn-1-3109bc8ee2d0f3eb" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>，形成四分體
+聯會<a data-footref="1" href="#fn-1-2da8394f7fa6a9e6" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>，形成四分體
 中心粒延伸出紡錘絲，並與二分體著絲點連接
 中心粒拉著四分體移動至細胞中央排成一排
 同源染色體分離，兩個二分體分別分離到不同的子細胞中，並向細胞兩堆移動 中心粒延伸出紡錘絲，並與二分體著絲點連接（染色體不複製）
@@ -641,8 +717,8 @@ RNA中三個核苷酸為一個密碼子 轉譯起點為AUG，作為蛋白質配�
 形成分裂溝<br>
 <img src="https://www.jove.com/files/media/science-education/science-education-thumbs/12067.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
 分配胞器
-<br>子細胞形成（例如形成<a data-href="人體配子" href="生物/細胞/人體配子.html" class="internal-link" target="_self" rel="noopener nofollow">人體配子</a>） <br>聯會：指兩個二分體（同源染色體）相疊，形成四分體。<a href="#fnref-1-3109bc8ee2d0f3eb" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
-]]></description><link>生物/細胞/細胞分裂/減數分裂.html</link><guid isPermaLink="false">生物/細胞/細胞分裂/減數分裂.md</guid><pubDate>Fri, 10 Oct 2025 07:34:01 GMT</pubDate><enclosure url="https://lh3.googleusercontent.com/-tooazAR3nGU/UtVSHbF0IKI/AAAAAAAATK4/kBgKYRAurrs/s640/ch_gene_c2b.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-tooazAR3nGU/UtVSHbF0IKI/AAAAAAAATK4/kBgKYRAurrs/s640/ch_gene_c2b.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[有絲分裂]]></title><description><![CDATA[完成染色質與胞器的複製
+<br>子細胞形成（例如形成<a data-href="人體配子" href="生物/細胞/人體配子.html" class="internal-link" target="_self" rel="noopener nofollow">人體配子</a>） <br>聯會：指兩個二分體（同源染色體）相疊，形成四分體。<a href="#fnref-1-2da8394f7fa6a9e6" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+]]></description><link>生物/細胞/細胞分裂/減數分裂.html</link><guid isPermaLink="false">生物/細胞/細胞分裂/減數分裂.md</guid><pubDate>Fri, 10 Oct 2025 07:34:01 GMT</pubDate><enclosure url="https://lh3.googleusercontent.com/-tooazAR3nGU/UtVSHbF0IKI/AAAAAAAATK4/kBgKYRAurrs/s640/ch_gene_c2b.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://lh3.googleusercontent.com/-tooazAR3nGU/UtVSHbF0IKI/AAAAAAAATK4/kBgKYRAurrs/s640/ch_gene_c2b.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[有絲分裂]]></title><description><![CDATA[完成染色質與胞器的複製
 <a data-href="染色質" href="生物/細胞/細胞分裂/染色質.html" class="internal-link" target="_self" rel="noopener nofollow">染色質</a>纏繞成姐妹染色體，以中結連接成二分體
 中心粒附近形成出紡錘絲，並與二分體著絲點連接
 中心粒拉著二分體移動至細胞中央排成一排
@@ -654,7 +730,7 @@ RNA中三個核苷酸為一個密碼子 轉譯起點為AUG，作為蛋白質配�
 <img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/573714.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
 分配胞器
 子細胞形成
-]]></description><link>生物/細胞/細胞分裂/有絲分裂.html</link><guid isPermaLink="false">生物/細胞/細胞分裂/有絲分裂.md</guid><pubDate>Fri, 10 Oct 2025 07:33:39 GMT</pubDate><enclosure url="https://www.jove.com/files/media/science-education/science-education-thumbs/12067.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://www.jove.com/files/media/science-education/science-education-thumbs/12067.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[人體配子]]></title><description><![CDATA[Note 人體配子即為精子與卵子
+]]></description><link>生物/細胞/細胞分裂/有絲分裂.html</link><guid isPermaLink="false">生物/細胞/細胞分裂/有絲分裂.md</guid><pubDate>Fri, 10 Oct 2025 07:33:39 GMT</pubDate><enclosure url="https://www.jove.com/files/media/science-education/science-education-thumbs/12067.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://www.jove.com/files/media/science-education/science-education-thumbs/12067.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[人體配子]]></title><description><![CDATA[Note 人體配子即為精子與卵子
 人體配子由生殖母細胞減數分裂而成 精母細胞進行染色體複製，形成「初級精母細胞」
 「初級精母細胞」進行減數分裂第一階段，形成二個「次級精母細胞」
 「次級精母細胞」進行減數分裂第二階段，形成共四個精細胞 卵母細胞進行染色體複製，形成「初級卵母細胞」
@@ -689,7 +765,7 @@ RNA製造蛋白質
 蛋白質協助「RNA製造蛋白質」
 蛋白質協助「DNA自我複製」
 遺傳訊息傳遞到蛋白質後，不能夠傳遞回核酸
-例外：有些病毒可以把訊息自RNA逆轉錄回DNA中 ]]></description><link>生物/遺傳/遺傳學／分子生物學/分子生物學的中心法則.html</link><guid isPermaLink="false">生物/遺傳/遺傳學／分子生物學/分子生物學的中心法則.md</guid><pubDate>Thu, 09 Oct 2025 04:00:12 GMT</pubDate><enclosure url="https://upload.wikimedia.org/wikipedia/commons/0/06/Centraldogma_nodetails.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/06/Centraldogma_nodetails.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[遺傳因子之爭]]></title><description><![CDATA[<a href=".?query=tag:科學史" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#科學史">#科學史</a> <br>已知遺傳因子在<a data-href="染色體" href="生物/細胞/細胞分裂/染色體.html" class="internal-link" target="_self" rel="noopener nofollow">染色體</a>上
+例外：有些病毒可以把訊息自RNA逆轉錄回DNA中 ]]></description><link>生物/遺傳/遺傳學／分子生物學/分子生物學的中心法則.html</link><guid isPermaLink="false">生物/遺傳/遺傳學／分子生物學/分子生物學的中心法則.md</guid><pubDate>Thu, 09 Oct 2025 04:00:12 GMT</pubDate><enclosure url="https://upload.wikimedia.org/wikipedia/commons/0/06/Centraldogma_nodetails.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Centraldogma_nodetails.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[遺傳因子之爭]]></title><description><![CDATA[<a href=".?query=tag:科學史" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#科學史">#科學史</a> <br>已知遺傳因子在<a data-href="染色體" href="生物/細胞/細胞分裂/染色體.html" class="internal-link" target="_self" rel="noopener nofollow">染色體</a>上
 <br>染色體包含<a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>與<a data-href="DNA" href="生物/遺傳/遺傳學／分子生物學/dna.html" class="internal-link" target="_self" rel="noopener nofollow">DNA</a>
 究竟「蛋白質」或「DNA」誰是遺傳因子？
 染色體上的蛋白質含量遠高於DNA
@@ -699,8 +775,8 @@ RNA製造蛋白質
 將已經死亡的光滑型細菌與粗糙型細菌一同注入小鼠體內，小鼠死亡。 結論：光滑型細菌會以某種物質將性狀轉移至粗糙型細菌，稱為轉型作用於 1944 年證實
 實驗流程 以水解酶將蛋白質與RNA分解
 <br><a data-tooltip-position="top" aria-label="遺傳因子之爭 > ^5079ce" data-href="遺傳因子之爭#^5079ce" href="生物/遺傳/遺傳學／分子生物學/遺傳因子之爭.html#^5079ce" class="internal-link" target="_self" rel="noopener nofollow">轉型作用</a>依然發生 於 1952 年證實
-實驗流程 <br>利用噬菌體，分別以放射性元素標定<a data-footref="1" href="#fn-1-3109bc8ee2d0f3eb" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>蛋白質的硫、DNA中的磷。
-發現具放射性的磷出現於受感染的細菌體內 結論：DNA中所含的磷會參與遺傳，證實DNA參與遺傳 <br>將標定的元素變為具有放射性元素，已追蹤。<a href="#fnref-1-3109bc8ee2d0f3eb" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+實驗流程 <br>利用噬菌體，分別以放射性元素標定<a data-footref="1" href="#fn-1-2da8394f7fa6a9e6" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a>蛋白質的硫、DNA中的磷。
+發現具放射性的磷出現於受感染的細菌體內 結論：DNA中所含的磷會參與遺傳，證實DNA參與遺傳 <br>將標定的元素變為具有放射性元素，已追蹤。<a href="#fnref-1-2da8394f7fa6a9e6" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
 ]]></description><link>生物/遺傳/遺傳學／分子生物學/遺傳因子之爭.html</link><guid isPermaLink="false">生物/遺傳/遺傳學／分子生物學/遺傳因子之爭.md</guid><pubDate>Thu, 09 Oct 2025 01:32:17 GMT</pubDate></item><item><title><![CDATA[核酸]]></title><description><![CDATA[由核苷酸聚合而成
 五碳醣（可能變動）
 含氮鹼基（可能變動） A（DNA/RNA）：腺嘌呤（可以與T、U配對）
@@ -737,7 +813,7 @@ RNA
 <br>附著於<a data-tooltip-position="top" aria-label="內質網 > ^c1f61d" data-href="內質網#^c1f61d" href="生物/細胞/細胞中的構造/細胞質中的構造/內質網.html#^c1f61d" class="internal-link" target="_self" rel="noopener nofollow">粗糙內質網</a>表面
 <br>存在於<a data-href="葉綠體" href="生物/細胞/細胞中的構造/細胞質中的構造/葉綠體.html" class="internal-link" target="_self" rel="noopener nofollow">葉綠體</a>
 <br>存在於<a data-href="粒線體" href="生物/細胞/細胞中的構造/細胞質中的構造/粒線體.html" class="internal-link" target="_self" rel="noopener nofollow">粒線體</a>
-]]></description><link>生物/細胞/細胞中的構造/細胞質中的構造/核糖體.html</link><guid isPermaLink="false">生物/細胞/細胞中的構造/細胞質中的構造/核糖體.md</guid><pubDate>Sat, 04 Oct 2025 05:47:14 GMT</pubDate><enclosure url="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/694706.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/694706.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[細胞膜]]></title><description><![CDATA[英文：Note
+]]></description><link>生物/細胞/細胞中的構造/細胞質中的構造/核糖體.html</link><guid isPermaLink="false">生物/細胞/細胞中的構造/細胞質中的構造/核糖體.md</guid><pubDate>Sat, 04 Oct 2025 05:47:14 GMT</pubDate><enclosure url="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/694706.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/694706.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[細胞膜]]></title><description><![CDATA[英文：Note
 （翻譯作「原生質膜」）
 也能代表細胞膜
 但是 是「細胞的膜」
@@ -828,7 +904,7 @@ Note
 <br>上面附著<a data-href="核糖體" href="生物/細胞/細胞中的構造/細胞質中的構造/核糖體.html" class="internal-link" target="_self" rel="noopener nofollow">核糖體</a>（所以「粗糙」） <br>表面附著的核糖體會合成<a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>
 蛋白質隨即進入粗糙內質網
 粗糙內質網在酵素協助上修飾與運輸蛋白質 一端連著細胞核，一端向細胞膜延伸 管狀構成的網狀結構 和脂質的合成與運輸有關 一端連著細胞核，一端向細胞膜延伸
-]]></description><link>生物/細胞/細胞中的構造/細胞質中的構造/內質網.html</link><guid isPermaLink="false">生物/細胞/細胞中的構造/細胞質中的構造/內質網.md</guid><pubDate>Mon, 22 Sep 2025 06:32:55 GMT</pubDate><enclosure url="https://ehanlin-keyword.s3.amazonaws.com/image/668570.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://ehanlin-keyword.s3.amazonaws.com/image/668570.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[中心粒與紡錘絲]]></title><description><![CDATA[
+]]></description><link>生物/細胞/細胞中的構造/細胞質中的構造/內質網.html</link><guid isPermaLink="false">生物/細胞/細胞中的構造/細胞質中的構造/內質網.md</guid><pubDate>Mon, 22 Sep 2025 06:32:55 GMT</pubDate><enclosure url="https://ehanlin-keyword.s3.amazonaws.com/image/668570.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://ehanlin-keyword.s3.amazonaws.com/image/668570.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[中心粒與紡錘絲]]></title><description><![CDATA[
 由<a data-href="蛋白質" href="生物/細胞/細胞中的化學物質/蛋白質.html" class="internal-link" target="_self" rel="noopener nofollow">蛋白質</a>組成 由兩個管狀構造的中心粒構成一個中心體 細胞分裂時協助染色體分離 位於細胞核附近
 動物細胞中有
 植物細胞通常沒有
@@ -859,7 +935,7 @@ RNA（細胞核→細胞質） 可能有一個或數個
 運輸、儲存
 修飾要分泌的物質
 變成囊泡來將物質分泌出去
-]]></description><link>生物/細胞/細胞中的構造/細胞質中的構造/高基氏體.html</link><guid isPermaLink="false">生物/細胞/細胞中的構造/細胞質中的構造/高基氏體.md</guid><pubDate>Sat, 20 Sep 2025 10:07:38 GMT</pubDate><enclosure url="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/573745.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/573745.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[細胞的構造]]></title><link>生物/細胞/細胞的構造.html</link><guid isPermaLink="false">生物/細胞/細胞的構造.md</guid><pubDate>Sat, 20 Sep 2025 09:52:12 GMT</pubDate></item><item><title><![CDATA[能量載體]]></title><description><![CDATA[Note
+]]></description><link>生物/細胞/細胞中的構造/細胞質中的構造/高基氏體.html</link><guid isPermaLink="false">生物/細胞/細胞中的構造/細胞質中的構造/高基氏體.md</guid><pubDate>Sat, 20 Sep 2025 10:07:38 GMT</pubDate><enclosure url="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/573745.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/573745.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[細胞的構造]]></title><link>生物/細胞/細胞的構造.html</link><guid isPermaLink="false">生物/細胞/細胞的構造.md</guid><pubDate>Sat, 20 Sep 2025 09:52:12 GMT</pubDate></item><item><title><![CDATA[能量載體]]></title><description><![CDATA[Note
 ATP 和 ADP 都是核苷酸
 組成： "A"是指含氮鹼基（ATGCU）中的腺嘌呤（A）
 組成 ATP/ADP 的另一要素是核糖
@@ -889,7 +965,7 @@ NADP 是輔酶的一種
 H 的移動即可視為質子的移動。 化學式（並非最完整） ]]></description><link>生物/生物體的能量/光合作用.html</link><guid isPermaLink="false">生物/生物體的能量/光合作用.md</guid><pubDate>Mon, 15 Sep 2025 01:52:06 GMT</pubDate></item><item><title><![CDATA[生物體的能量來源]]></title><description><![CDATA[所有生物體的能量來源皆是直接或間接來自光能可以直接轉化光能來取得能量化學簡式 醣類即為能量所儲存的地方化學簡式：化學簡式 呼吸作用透過分解（氧化）存有能量的醣類來釋放能量，將能量暫存於ATP中。透過攝取植物來取得能量]]></description><link>生物/生物體的能量/生物體的能量來源.html</link><guid isPermaLink="false">生物/生物體的能量/生物體的能量來源.md</guid><pubDate>Mon, 15 Sep 2025 01:46:28 GMT</pubDate></item><item><title><![CDATA[葉綠體]]></title><description><![CDATA[
 雙層膜
 基質 葉綠餅 類囊體堆疊而成 彼此間有連結，而非獨立胞器
-具有光合色素 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chloroplast_II-zh-hant.svg/500px-Chloroplast_II-zh-hant.svg.png" referrerpolicy="no-referrer" target="_self" class="is-unresolved">]]></description><link>生物/細胞/細胞中的構造/細胞質中的構造/葉綠體.html</link><guid isPermaLink="false">生物/細胞/細胞中的構造/細胞質中的構造/葉綠體.md</guid><pubDate>Mon, 15 Sep 2025 01:29:03 GMT</pubDate><enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chloroplast_II-zh-hant.svg/500px-Chloroplast_II-zh-hant.svg.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chloroplast_II-zh-hant.svg/500px-Chloroplast_II-zh-hant.svg.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[代謝作用]]></title><description><![CDATA[
+具有光合色素 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chloroplast_II-zh-hant.svg/500px-Chloroplast_II-zh-hant.svg.png" referrerpolicy="no-referrer" target="_self" class="is-unresolved">]]></description><link>生物/細胞/細胞中的構造/細胞質中的構造/葉綠體.html</link><guid isPermaLink="false">生物/細胞/細胞中的構造/細胞質中的構造/葉綠體.md</guid><pubDate>Mon, 15 Sep 2025 01:29:03 GMT</pubDate><enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chloroplast_II-zh-hant.svg/500px-Chloroplast_II-zh-hant.svg.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chloroplast_II-zh-hant.svg/500px-Chloroplast_II-zh-hant.svg.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[代謝作用]]></title><description><![CDATA[
 小分子合成成大分子
 反應所消耗的能量 &gt; 釋放出的能量
 Example 葡萄糖合成為肝醣 大分子分解成小分子
@@ -922,4 +998,208 @@ Example 葡萄糖分解為二氧化碳與水 能量如何儲存？
 包含：
 體積的增長
 細胞數量的增加
-]]></description><link>生物/生命現象/生長.html</link><guid isPermaLink="false">生物/生命現象/生長.md</guid><pubDate>Wed, 10 Sep 2025 05:56:25 GMT</pubDate></item></channel></rss>
+]]></description><link>生物/生命現象/生長.html</link><guid isPermaLink="false">生物/生命現象/生長.md</guid><pubDate>Wed, 10 Sep 2025 05:56:25 GMT</pubDate></item><item><title><![CDATA[結構式]]></title><description><![CDATA[
+表達分子於三度空間中的相對位置
+<img src="https://o.quizlet.com/Uzo4ht6K1JXpBNv2vhEmwg.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved"><br><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Proline_model.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved"><br><img src="https://thumb.ac-illust.com/bb/bb52210d751884772402648b1f66137f_t.jpeg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">]]></description><link>化學/化學式/結構式.html</link><guid isPermaLink="false">化學/化學式/結構式.md</guid><pubDate>Tue, 04 Nov 2025 23:11:13 GMT</pubDate><enclosure url="https://o.quizlet.com/Uzo4ht6K1JXpBNv2vhEmwg.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://o.quizlet.com/Uzo4ht6K1JXpBNv2vhEmwg.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[示性式]]></title><description><![CDATA[
+表示物質中含有何種<a data-href="官能基" href="化學/官能基.html" class="internal-link" target="_self" rel="noopener nofollow">官能基</a>的化學式
+能表明分子中所含的原子種類、原子個數和官能基
+可以顯示其特性
+示性式是結構式的簡化
+]]></description><link>化學/化學式/示性式.html</link><guid isPermaLink="false">化學/化學式/示性式.md</guid><pubDate>Tue, 04 Nov 2025 23:11:06 GMT</pubDate></item><item><title><![CDATA[原子說]]></title><description><![CDATA[提出元素概念，但未深入討論原子存在後來發現原子並非最小粒子，還可以再分割為<a data-href="質子" href="化學/原子/原子的結構/質子.html" class="internal-link" target="_self" rel="noopener nofollow">質子</a>、<a data-href="中子" href="化學/原子/原子的結構/中子.html" class="internal-link" target="_self" rel="noopener nofollow">中子</a>與<a data-href="電子" href="化學/原子/原子的結構/電子.html" class="internal-link" target="_self" rel="noopener nofollow">電子</a>發現同位素，相同元素可能有不同質量發現同量素，不同元素可能有相同質量可以解釋定比定律可能產生以非簡單整數比結合的物質（高中化學較少談論）例如：WO2與WO3的混合物加熱後產生WO2.92核反應時原子的種類會改變]]></description><link>化學/原子/原子說與相關理論/原子說.html</link><guid isPermaLink="false">化學/原子/原子說與相關理論/原子說.md</guid><pubDate>Tue, 28 Oct 2025 06:25:56 GMT</pubDate></item><item><title><![CDATA[同位素]]></title><description><![CDATA[
+<a data-href="質子" href="化學/原子/原子的結構/質子.html" class="internal-link" target="_self" rel="noopener nofollow">質子</a>數相同
+<br><a data-href="電子" href="化學/原子/原子的結構/電子.html" class="internal-link" target="_self" rel="noopener nofollow">電子</a>數相同
+<br><a data-href="中子" href="化學/原子/原子的結構/中子.html" class="internal-link" target="_self" rel="noopener nofollow">中子</a>數不同
+]]></description><link>化學/同位素.html</link><guid isPermaLink="false">化學/同位素.md</guid><pubDate>Tue, 28 Oct 2025 06:25:35 GMT</pubDate></item><item><title><![CDATA[元素記號]]></title><description><![CDATA[質量數＝<a data-href="質子" href="化學/原子/原子的結構/質子.html" class="internal-link" target="_self" rel="noopener nofollow">質子</a>數＋<a data-href="中子" href="化學/原子/原子的結構/中子.html" class="internal-link" target="_self" rel="noopener nofollow">中子</a>數<br>
+原子序＝質子數＝<a data-href="電子" href="化學/原子/原子的結構/電子.html" class="internal-link" target="_self" rel="noopener nofollow">電子</a>數質子數＝
+電子數＝
+中子數＝]]></description><link>化學/原子/原子的數值計算/元素記號.html</link><guid isPermaLink="false">化學/原子/原子的數值計算/元素記號.md</guid><pubDate>Tue, 28 Oct 2025 06:25:22 GMT</pubDate></item><item><title><![CDATA[質子]]></title><description><![CDATA[
+2顆頂<a data-href="夸克" href="物理/夸克.html" class="internal-link" target="_self" rel="noopener nofollow">夸克</a>（u）＋1顆底夸克組成
+電荷量：
+]]></description><link>化學/原子/原子的結構/質子.html</link><guid isPermaLink="false">化學/原子/原子的結構/質子.md</guid><pubDate>Tue, 28 Oct 2025 06:24:21 GMT</pubDate></item><item><title><![CDATA[中子]]></title><description><![CDATA[
+1顆頂<a data-href="夸克" href="物理/夸克.html" class="internal-link" target="_self" rel="noopener nofollow">夸克</a>（u）＋2顆底夸克組成
+電荷量：
+]]></description><link>化學/原子/原子的結構/中子.html</link><guid isPermaLink="false">化學/原子/原子的結構/中子.md</guid><pubDate>Tue, 28 Oct 2025 06:24:16 GMT</pubDate></item><item><title><![CDATA[原子]]></title><description><![CDATA[
+可以想像為一個球體
+原子直徑約 10-10m = 0.1nm <a data-href="電子" href="化學/原子/原子的結構/電子.html" class="internal-link" target="_self" rel="noopener nofollow">電子</a>
+簡單化學反應主要牽涉到電子
+]]></description><link>化學/原子/原子的結構/原子.html</link><guid isPermaLink="false">化學/原子/原子的結構/原子.md</guid><pubDate>Tue, 28 Oct 2025 06:22:39 GMT</pubDate></item><item><title><![CDATA[化學式]]></title><link>化學/化學式/化學式.html</link><guid isPermaLink="false">化學/化學式/化學式.md</guid><pubDate>Tue, 28 Oct 2025 01:23:02 GMT</pubDate></item><item><title><![CDATA[化學反應式]]></title><description><![CDATA[
+基於事實，不可臆測 反應物在反應式左邊，生成物在反應式右邊 註明物質的狀態 如有需要，註明反應式所需要的條件 如有需要，註明反應式揮發或沉澱的狀況 ]]></description><link>化學/化學式/化學反應式.html</link><guid isPermaLink="false">化學/化學式/化學反應式.md</guid><pubDate>Tue, 28 Oct 2025 01:22:41 GMT</pubDate></item><item><title><![CDATA[元素分析]]></title><description><![CDATA[
+透過元素，分析化合物中所含的元素質量所佔的百分比 透過化學反應，分析生成物的組成，轉換成莫耳數來推測反應物的實驗式
+根據<a data-href="質量守恆定律" href="化學/原子/原子說與相關理論/質量守恆定律.html" class="internal-link" target="_self" rel="noopener nofollow">質量守恆定律</a> ]]></description><link>化學/元素分析.html</link><guid isPermaLink="false">化學/元素分析.md</guid><pubDate>Thu, 23 Oct 2025 03:08:05 GMT</pubDate></item><item><title><![CDATA[物質的分類]]></title><description><![CDATA[
+由單一成分組成的物質
+具有一定的組成及一定的性質 單一一種原子組成的純物質
+無法用普通科化學方法分解成更簡單物質
+同素異形體／同素異構物（） 同一種元素構成
+但原子排列方式不同
+例如：O2、O3 <a data-href="同位素" href="化學/同位素.html" class="internal-link" target="_self" rel="noopener nofollow">同位素</a>
+由兩種或兩種以上的原子組成的純物質
+組成化合物的各元素有一定的比例（定比定律）
+化合物中各元素不保有原來的性質
+元素可組成不同化合物（倍比定律）
+同分異構物 <br><a data-href="實驗式" href="化學/化學式/實驗式.html" class="internal-link" target="_self" rel="noopener nofollow">實驗式</a>、<a data-href="分子式" href="化學/化學式/分子式.html" class="internal-link" target="_self" rel="noopener nofollow">分子式</a>相同
+<br><a data-href="結構式" href="化學/化學式/結構式.html" class="internal-link" target="_self" rel="noopener nofollow">結構式</a>、<a data-href="示性式" href="化學/化學式/示性式.html" class="internal-link" target="_self" rel="noopener nofollow">示性式</a>不同
+物理與化學性質不同
+相同組成成分，但結構不同的物質 <br>由兩種或兩種以上<a data-tooltip-position="top" aria-label="^33828a" data-href="#^33828a" href="#^33828a" class="internal-link" target="_self" rel="noopener nofollow">純物質</a>所組成的物質
+不具有固定的組成或性質
+組成的物質保有各自的性質
+可以用適合的物理方法分離物質
+<br>可用化學方法分離成兩種或兩種以上的純物質（<a data-href="混合物分離與純化" href="化學/物質/混合物分離與純化/混合物分離與純化.html" class="internal-link" target="_self" rel="noopener nofollow">混合物分離與純化</a>） 物質的分類圖]]></description><link>化學/物質/物質的分類.html</link><guid isPermaLink="false">化學/物質/物質的分類.md</guid><pubDate>Thu, 23 Oct 2025 03:00:11 GMT</pubDate></item><item><title><![CDATA[官能基]]></title><description><![CDATA[
+可以表示物質特性的原子或原子團
+R代表CnHm]]></description><link>化學/官能基.html</link><guid isPermaLink="false">化學/官能基.md</guid><pubDate>Thu, 23 Oct 2025 02:56:59 GMT</pubDate></item><item><title><![CDATA[分子式]]></title><description><![CDATA[
+表示物質實際組成的化學式
+能夠表明單一分子中所含的原子種類和原子個數的總數
+分子式為<a data-href="實驗式" href="化學/化學式/實驗式.html" class="internal-link" target="_self" rel="noopener nofollow">實驗式</a>的倍數
+<br>分子量為<a data-tooltip-position="top" aria-label="實驗式 > ^89c7ab" data-href="實驗式#^89c7ab" href="化學/化學式/實驗式.html#^89c7ab" class="internal-link" target="_self" rel="noopener nofollow">式量</a>的倍數
+]]></description><link>化學/化學式/分子式.html</link><guid isPermaLink="false">化學/化學式/分子式.md</guid><pubDate>Thu, 23 Oct 2025 02:46:31 GMT</pubDate></item><item><title><![CDATA[實驗式]]></title><description><![CDATA[
+表示物質組成最簡單化學式，又稱為簡式
+化合物在實驗室中分析後決定的化學式
+可以表明分子中所含的原子種類和個數的最簡單整數比
+實驗式中各元素的原子量總和稱為式量 透過化學式中的原子個數與原子量計算出元素的重量百分比 ]]></description><link>化學/化學式/實驗式.html</link><guid isPermaLink="false">化學/化學式/實驗式.md</guid><pubDate>Thu, 23 Oct 2025 02:46:29 GMT</pubDate></item><item><title><![CDATA[共價網狀化合物]]></title><description><![CDATA[
+以<a data-href="實驗式" href="化學/化學式/實驗式.html" class="internal-link" target="_self" rel="noopener nofollow">實驗式</a>表示
+以共價鍵結合，形成二維或三圍無限延伸的結構
+共價鍵的鍵結力比分子間作用力強，共價網狀固體比分子固體有較高的熔點、沸點和硬度
+]]></description><link>化學/物質/化合物/共價網狀化合物.html</link><guid isPermaLink="false">化學/物質/化合物/共價網狀化合物.md</guid><pubDate>Thu, 23 Oct 2025 02:39:21 GMT</pubDate></item><item><title><![CDATA[不同種類的物質性質比較]]></title><link>化學/物質/化合物/不同種類的物質性質比較.html</link><guid isPermaLink="false">化學/物質/化合物/不同種類的物質性質比較.md</guid><pubDate>Thu, 23 Oct 2025 02:38:56 GMT</pubDate></item><item><title><![CDATA[離子鍵]]></title><link>化學/物質/化學鍵/離子鍵.html</link><guid isPermaLink="false">化學/物質/化學鍵/離子鍵.md</guid><pubDate>Thu, 23 Oct 2025 02:15:54 GMT</pubDate></item><item><title><![CDATA[金屬晶體]]></title><description><![CDATA[
+僅以實驗式表示
+金屬晶體是原子互相堆疊而成的巨大結構，不會單獨存在 高熔點
+高沸點
+熱的良導體：因為<a data-tooltip-position="top" aria-label="金屬鍵 > ^f40d00" data-href="金屬鍵#^f40d00" href="化學/物質/化學鍵/金屬鍵.html#^f40d00" class="internal-link" target="_self" rel="noopener nofollow">自由電子</a>移動（電子海）
+<br>電的良導體：因為<a data-tooltip-position="top" aria-label="金屬鍵 > ^f40d00" data-href="金屬鍵#^f40d00" href="化學/物質/化學鍵/金屬鍵.html#^f40d00" class="internal-link" target="_self" rel="noopener nofollow">自由電子</a>移動（電子海）
+溫度上升、導電性下降
+<br>具有高延性、展性：因為<a data-tooltip-position="top" aria-label="金屬鍵 > ^f40d00" data-href="金屬鍵#^f40d00" href="化學/物質/化學鍵/金屬鍵.html#^f40d00" class="internal-link" target="_self" rel="noopener nofollow">電子海</a>包圍，金屬原子不容易因為同性相斥而導致斷裂
+]]></description><link>化學/物質/化合物/金屬晶體.html</link><guid isPermaLink="false">化學/物質/化合物/金屬晶體.md</guid><pubDate>Thu, 23 Oct 2025 02:14:49 GMT</pubDate></item><item><title><![CDATA[金屬鍵]]></title><description><![CDATA[
+所有金屬原子都會提供自己的價電子
+所有價電子被釋出，形成陽離子
+所有價電子可以自由移動，形成電子海
+金屬陽離子為有秩序的整齊結構，被電子海所包圍
+電子海不屬於任何一個金屬楊離子 電子海中的自由電子與金屬陽離子之間的吸引力
+]]></description><link>化學/物質/化學鍵/金屬鍵.html</link><guid isPermaLink="false">化學/物質/化學鍵/金屬鍵.md</guid><pubDate>Thu, 23 Oct 2025 02:13:18 GMT</pubDate></item><item><title><![CDATA[共價化合物]]></title><description><![CDATA[
+以<a data-href="共價鍵" href="化學/物質/化學鍵/共價鍵.html" class="internal-link" target="_self" rel="noopener nofollow">共價鍵</a>形成的化合物
+<br>因為<a data-href="原子" href="化學/原子/原子的結構/原子.html" class="internal-link" target="_self" rel="noopener nofollow">原子</a>以共價鍵結合，為電中性，本身不帶電
+固態或熔融狀態都難以導電
+有些酸鹼性共價化合物溶於水後會因為解離產生離子而具有導電性
+]]></description><link>化學/物質/化合物/共價化合物.html</link><guid isPermaLink="false">化學/物質/化合物/共價化合物.md</guid><pubDate>Thu, 23 Oct 2025 02:05:51 GMT</pubDate></item><item><title><![CDATA[共價鍵]]></title><description><![CDATA[
+共用價電子對所組成的化學鍵結
+原子傾向共用價電子以滿足<a data-href="八隅體規則" href="化學/原子/原子說與相關理論/八隅體規則.html" class="internal-link" target="_self" rel="noopener nofollow">八隅體規則</a> 由一對共用電子所組成 由兩對共用電子所組成 由三對共用電子所組成
+]]></description><link>化學/物質/化學鍵/共價鍵.html</link><guid isPermaLink="false">化學/物質/化學鍵/共價鍵.md</guid><pubDate>Thu, 23 Oct 2025 02:05:39 GMT</pubDate></item><item><title><![CDATA[化學鍵]]></title><description><![CDATA[<img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/554674.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+共用的價電子對，稱為鍵結電子對 為共用的成對價電子，稱為孤電子對
+]]></description><link>化學/物質/化學鍵/化學鍵.html</link><guid isPermaLink="false">化學/物質/化學鍵/化學鍵.md</guid><pubDate>Thu, 23 Oct 2025 02:05:34 GMT</pubDate><enclosure url="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/554674.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/554674.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[離子化合物]]></title><description><![CDATA[
+以<a data-href="離子鍵" href="化學/物質/化學鍵/離子鍵.html" class="internal-link" target="_self" rel="noopener nofollow">離子鍵</a>結合的化合物
+]]></description><link>化學/物質/化合物/離子化合物.html</link><guid isPermaLink="false">化學/物質/化合物/離子化合物.md</guid><pubDate>Thu, 23 Oct 2025 02:05:13 GMT</pubDate></item><item><title><![CDATA[八隅體規則]]></title><link>化學/原子/原子說與相關理論/八隅體規則.html</link><guid isPermaLink="false">化學/原子/原子說與相關理論/八隅體規則.md</guid><pubDate>Tue, 14 Oct 2025 02:01:37 GMT</pubDate></item><item><title><![CDATA[電子殼層]]></title><description><![CDATA[<img src="https://www.phyworld.idv.tw/BA_CHE/CH2/2-2.files/image068.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+原子核外有「電子殼層」 電子所佔據最外層的殼層稱為「假殼層」
+位於假殼層的電子稱為「價電子」
+價電子距離原子核越遠，受到原子核的束縛最小 在化學反應中最容易發生轉移
+與化學反應有關
+與化學性質有關 有相同價電子的元素，具有相似的化學性質 Li 和 Na 同樣具有1個價電子
+<br>He 和 Ne 一個具有2個價電子，一個具有8個價電子，皆是假殼層被填滿的元素，具有相似的化學性質（性質安定），即滿足<a data-href="八隅體規則" href="化學/原子/原子說與相關理論/八隅體規則.html" class="internal-link" target="_self" rel="noopener nofollow">八隅體規則</a> 電子的排列狀態稱為「電子組態」或「電子排列」
+原子序小於20的元素在第三殼層最多只能仍納8個電子，剩下的電子要填入第四殼層
+電子傾向先進入低能階的殼層可容納電子數公式 n 為電子殼層數
+]]></description><link>化學/原子/原子的結構/電子殼層.html</link><guid isPermaLink="false">化學/原子/原子的結構/電子殼層.md</guid><pubDate>Tue, 14 Oct 2025 02:01:36 GMT</pubDate><enclosure url="https://www.phyworld.idv.tw/BA_CHE/CH2/2-2.files/image068.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://www.phyworld.idv.tw/BA_CHE/CH2/2-2.files/image068.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[電子]]></title><link>化學/原子/原子的結構/電子.html</link><guid isPermaLink="false">化學/原子/原子的結構/電子.md</guid><pubDate>Tue, 14 Oct 2025 01:14:50 GMT</pubDate></item><item><title><![CDATA[路易斯電子點式]]></title><description><![CDATA[
+「元素符號」表示原子核及其內層已填滿的電子殼層
+電子點表示最外層電子
+不需考慮電子點排列的順序
+]]></description><link>化學/原子/原子的數值計算/路易斯電子點式.html</link><guid isPermaLink="false">化學/原子/原子的數值計算/路易斯電子點式.md</guid><pubDate>Tue, 14 Oct 2025 01:12:02 GMT</pubDate></item><item><title><![CDATA[能階]]></title><description><![CDATA[
+能階：每一層電子殼層的能量稱為能階
+原子核由近而外，能量由低而高
+越靠近原子核的殼層，能量最低、最安定
+]]></description><link>化學/原子/原子的結構/能階.html</link><guid isPermaLink="false">化學/原子/原子的結構/能階.md</guid><pubDate>Tue, 14 Oct 2025 00:56:42 GMT</pubDate></item><item><title><![CDATA[元素的分類]]></title><description><![CDATA[
+氧化物溶於水（或與水反應）會產生氫氧離子（鹼性） 氧化物溶於水（或與水反應）會產生氫離子（酸性） 氧化物溶於水（或與水反應），同時具有酸性與鹼性的性質
+鋁的氧化物不易溶水，但可溶於強酸或強鹼中 ]]></description><link>化學/元素的分類.html</link><guid isPermaLink="false">化學/元素的分類.md</guid><pubDate>Sat, 11 Oct 2025 12:22:05 GMT</pubDate></item><item><title><![CDATA[元素的週期性]]></title><description><![CDATA[
+又稱元素的規律性
+同族元素因為價電子數相同（He除外），因此化學性質相近。 1A族（除了H）傾向失去一個電子，形成+1價陽離子
+7A族傾向獲得一個電子，生成-1價陰離子
+2A族傾向失去二個電子，形成+2價陽離子
+6A族傾向獲得二個電子，生成-2價陰離子 失去電子的能力 得到電子的能力 同族元素，由上而下，金屬性漸增 因為原子半徑越大，原子核對外層電子的吸引力越小，失去電子的能力越大。 同週期元素，由左而由，金屬性漸弱 越往右的原子原子核內電荷漸多，原子半徑漸增，對外層電子吸引力越大，失去電子的能力越小 ]]></description><link>化學/元素的週期性.html</link><guid isPermaLink="false">化學/元素的週期性.md</guid><pubDate>Sat, 11 Oct 2025 12:14:40 GMT</pubDate></item><item><title><![CDATA[類金屬]]></title><description><![CDATA[
+多數屬於半導體
+導電性介於金屬與非金屬之間
+隨著溫度上升，導電性增加
+含有微量雜質會使導電性俱增
+]]></description><link>化學/物質/化合物/類金屬.html</link><guid isPermaLink="false">化學/物質/化合物/類金屬.md</guid><pubDate>Sat, 11 Oct 2025 11:57:18 GMT</pubDate></item><item><title><![CDATA[非金屬]]></title><description><![CDATA[
+非金屬為電的不良導體
+例外：石墨可導電 非金屬為熱的不良導體 低熔點、低沸點
+溴為室溫下唯一液態存在的非金屬元素
+金屬氧化物溶於水為酸性
+]]></description><link>化學/物質/化合物/非金屬.html</link><guid isPermaLink="false">化學/物質/化合物/非金屬.md</guid><pubDate>Sat, 11 Oct 2025 11:55:57 GMT</pubDate></item><item><title><![CDATA[金屬]]></title><description><![CDATA[
+主要分布於週期表的左側及中央部分
+佔總元素的四分之三 金屬為電的良導體
+溫度越高，導電性越低
+雜質越多，導電性越低 金屬為熱的良導體 多數金屬具有高熔點、光澤及高延展性
+多數金屬室溫為固態 Hg 為唯一室溫下已液態狀態存在的金屬 大部分金屬氧化物溶於水為鹼性
+]]></description><link>化學/物質/化合物/金屬.html</link><guid isPermaLink="false">化學/物質/化合物/金屬.md</guid><pubDate>Sat, 11 Oct 2025 11:49:58 GMT</pubDate></item><item><title><![CDATA[原子結構的發現]]></title><description><![CDATA[<a href=".?query=tag:科學史" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#科學史">#科學史</a>
+直線前進的性質
+電子為粒子流的性質
+增加電場與磁場 發現帶負電 發現電子的荷質比為 油滴與噴嘴摩擦而帶電
+油滴從受重力垂直向下，在外加電場會受到電力作用向上
+控制電廠大小使重力與電力達成平衡（等速度運動），計算由低的帶電量
+發現由低的帶電量都是某個數值的整數倍（有一個最大公因數） 該數值即為電荷的基本電量（） ]]></description><link>化學/原子/原子的結構/原子結構的發現.html</link><guid isPermaLink="false">化學/原子/原子的結構/原子結構的發現.md</guid><pubDate>Thu, 09 Oct 2025 03:03:24 GMT</pubDate></item><item><title><![CDATA[混合物分離與純化]]></title><link>化學/物質/混合物分離與純化/混合物分離與純化.html</link><guid isPermaLink="false">化學/物質/混合物分離與純化/混合物分離與純化.md</guid><pubDate>Fri, 03 Oct 2025 01:59:47 GMT</pubDate></item><item><title><![CDATA[原子量]]></title><description><![CDATA[
+原子量沒有單位 原子量是相對數值
+原子量的比較基準以12C同位素的原子量12作為比較基準
+]]></description><link>化學/原子/原子的數值計算/原子量.html</link><guid isPermaLink="false">化學/原子/原子的數值計算/原子量.md</guid><pubDate>Fri, 03 Oct 2025 01:46:30 GMT</pubDate></item><item><title><![CDATA[原子質量]]></title><description><![CDATA[amu (a.m.u, Atomic Mass Unit)]]></description><link>化學/原子/原子的數值計算/原子質量.html</link><guid isPermaLink="false">化學/原子/原子的數值計算/原子質量.md</guid><pubDate>Fri, 03 Oct 2025 01:46:18 GMT</pubDate></item><item><title><![CDATA[莫耳]]></title><description><![CDATA[
+IUPAC 定義： Example 計算公式 物質質量與一莫耳原子質量（<a data-href="原子量" href="化學/原子/原子的數值計算/原子量.html" class="internal-link" target="_self" rel="noopener nofollow">原子量</a>）的比值
+物質所含粒子數量與亞佛加厥數（）的比值
+]]></description><link>化學/原子/原子的數值計算/莫耳.html</link><guid isPermaLink="false">化學/原子/原子的數值計算/莫耳.md</guid><pubDate>Fri, 03 Oct 2025 01:45:55 GMT</pubDate></item><item><title><![CDATA[亞佛加厥定律]]></title><description><![CDATA[因為<a data-href="氣體化合體積定律" href="化學/原子/原子說與相關理論/氣體化合體積定律.html" class="internal-link" target="_self" rel="noopener nofollow">氣體化合體積定律</a>和與<a data-href="原子說" href="化學/原子/原子說與相關理論/原子說.html" class="internal-link" target="_self" rel="noopener nofollow">原子說</a>的矛盾，亞佛加厥提出此假設
+決定一種氣體化學性質的粒子是「分子」，分子可由同種或異種原子構成。
+同溫同壓下，任何氣體含有相同數目的分子 氣體體積比 = 分子數目比 <br>可以在<a data-href="原子說" href="化學/原子/原子說與相關理論/原子說.html" class="internal-link" target="_self" rel="noopener nofollow">原子說</a>成立的情況下，解釋<a data-href="氣體化合體積定律" href="化學/原子/原子說與相關理論/氣體化合體積定律.html" class="internal-link" target="_self" rel="noopener nofollow">氣體化合體積定律</a>。
+]]></description><link>化學/原子/原子說與相關理論/亞佛加厥定律.html</link><guid isPermaLink="false">化學/原子/原子說與相關理論/亞佛加厥定律.md</guid><pubDate>Thu, 02 Oct 2025 03:33:09 GMT</pubDate></item><item><title><![CDATA[氣體化合體積定律]]></title><description><![CDATA[由給呂薩克提出
+同溫同壓下 參與反應的任何氣體，所消耗與生成的體積之間具有簡單整數比的關係
+Example
+1體積H2＋1體積Cl2=2體積HCl
+→1:1:2
+2體積H2＋1體積O2=2體積水蒸氣
+→2:1:2
+在當時定義下，與原子說產生矛盾
+當時尚無分子定義，因此科學家認為此定律會使原子需要被分割成一半，與原子說矛盾。
+]]></description><link>化學/原子/原子說與相關理論/氣體化合體積定律.html</link><guid isPermaLink="false">化學/原子/原子說與相關理論/氣體化合體積定律.md</guid><pubDate>Thu, 02 Oct 2025 03:29:42 GMT</pubDate></item><item><title><![CDATA[科學界對元素的認識]]></title><description><![CDATA[<a href=".?query=tag:科學史" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#科學史">#科學史</a>
+科學家認定原子是物質組成的最小單位，不可再分割 元素不能由其他物質生成
+元素不能互相轉換
+元素無法再分解
+是一種原始、簡單的東西 可以燃燒的物質內部含有燃素
+物質由「燃素」和「灰質」組成
+物質燃燒後，燃素會離去、灰質會留下，因此重量減少
+無法解釋部分元素（如：鎂）燃燒後重量會增加 發現氧化汞（HgO）加熱會產生氣體，而且可以助燃 將此氣體稱為「去燃素氣體」（脫去燃素的氣體）
+現在知道該氣體為氧氣 錫燃燒實驗 將錫密封燃燒
+燃燒後產生錫灰
+總重量並未改變
+打開蓋子後發現總重量增加 發現「錫燃燒後增加的重量」與「實驗中打開蓋子後才增加的重量」相等
+重量的增加是因為空氣進入
+因此證明燃燒與空氣有關 主張燃燒的本質是物質與氣體（氧氣）發生反應
+]]></description><link>化學/原子/原子說與相關理論/科學界對元素的認識.html</link><guid isPermaLink="false">化學/原子/原子說與相關理論/科學界對元素的認識.md</guid><pubDate>Thu, 02 Oct 2025 03:26:12 GMT</pubDate></item><item><title><![CDATA[倍比定律]]></title><description><![CDATA[
+僅限於「兩種元素可以形成兩種或兩種以上的化合物」時
+帶有電荷的離子團不適用（如SO42-或SO32-）
+同素異形體不適用（如O2與O3）
+多元素化合物不適用 在這些化合物中，若將其中一種元素的質量固定，另一種元素的質量會形成簡單整數比。 CO 與 CO2的氧原子比例為 1:2
+]]></description><link>化學/原子/原子說與相關理論/倍比定律.html</link><guid isPermaLink="false">化學/原子/原子說與相關理論/倍比定律.md</guid><pubDate>Thu, 02 Oct 2025 03:17:03 GMT</pubDate></item><item><title><![CDATA[定比定律]]></title><description><![CDATA[
+相同的化合物，無論其來源或製備方法為何，組成元素之間有一定的質量比
+Example
+CO2 的質量比為 ，因此若有30克CO2，則其中有10克為C、20克為O。 物質質量比相同，不一定是同一種物質
+Example
+NO2與N2O4質量比皆為 ，但是是不同物質
+]]></description><link>化學/原子/原子說與相關理論/定比定律.html</link><guid isPermaLink="false">化學/原子/原子說與相關理論/定比定律.md</guid><pubDate>Thu, 02 Oct 2025 02:49:45 GMT</pubDate></item><item><title><![CDATA[質量守恆定律]]></title><description><![CDATA[
+化學反應前後，物質總質量不變
+化學反應是物質由一種形式轉化為另一種形式（化學結構）
+若非密閉環境，因為物質與氣體（氧氣）結合，質量會變重
+物質不會憑空消失 若質量減少，是因為有物質易散到外在環境
+若質量增加，是因為有外界物質參與反應 ]]></description><link>化學/原子/原子說與相關理論/質量守恆定律.html</link><guid isPermaLink="false">化學/原子/原子說與相關理論/質量守恆定律.md</guid><pubDate>Thu, 02 Oct 2025 02:38:03 GMT</pubDate></item><item><title><![CDATA[層析法]]></title><description><![CDATA[
+利用不同物質對濾紙纖維（固定相）附著力的差異來分離物質
+附著力大的物質移動較慢 項目
+Example LC-MASS
+氣相層析
+薄層層析法（濾紙也是一種） <img src="" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+選擇適當的溶劑（流動相／展開液）
+物質間附著力與流動速度要有差異
+]]></description><link>化學/物質/混合物分離與純化/層析法.html</link><guid isPermaLink="false">化學/物質/混合物分離與純化/層析法.md</guid><pubDate>Thu, 02 Oct 2025 02:03:16 GMT</pubDate></item><item><title><![CDATA[萃取法]]></title><description><![CDATA[
+物質在不同溶劑中的溶解度差異不同 使用的溶劑對想要萃取溶質的溶解度要大於原本混合物的溶劑
+Example 用油萃取溶於水中的茄紅素 <img src="https://i1.kknews.cc/2nUv5LeLXDnoElBC3d4VdGingl1HJjZOiyweigc/0.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+溶劑與混合物的溶劑要不互溶
+]]></description><link>化學/物質/混合物分離與純化/萃取法.html</link><guid isPermaLink="false">化學/物質/混合物分離與純化/萃取法.md</guid><pubDate>Thu, 02 Oct 2025 01:44:13 GMT</pubDate><enclosure url="https://i1.kknews.cc/2nUv5LeLXDnoElBC3d4VdGingl1HJjZOiyweigc/0.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://i1.kknews.cc/2nUv5LeLXDnoElBC3d4VdGingl1HJjZOiyweigc/0.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[蒸餾法]]></title><description><![CDATA[
+沸點不同的差異來分離
+沸點低的物質會先氣化，經過冷凝管凝結後搜集 可以分離沸點不同的物質
+Example 原油分餾
+精油提煉
+蒸餾酒 <img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/767617.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+溫度計一定要在三叉管的交界處
+冷凝管冷卻水入口在下方、出口在上方 因為氣化物質相對溫度高，若先接觸到冷卻水，使冷卻水升溫，冷卻效益會較低。 ]]></description><link>化學/物質/混合物分離與純化/蒸餾法.html</link><guid isPermaLink="false">化學/物質/混合物分離與純化/蒸餾法.md</guid><pubDate>Thu, 02 Oct 2025 01:37:32 GMT</pubDate><enclosure url="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/767617.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/767617.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[物質的三態]]></title><description><![CDATA[<img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/649514.jpg" referrerpolicy="no-referrer" target="_self" class="is-unresolved">凝固熱與融化熱數值大小相等，但正負號相反。
+凝結熱與氣化熱數值大小相等，但正負號相反。
+凝華熱與昇華熱數值大小相等，但正負號相反。<br><a data-href="蒸發與沸騰" href="化學/物質/物質的三態/蒸發與沸騰.html" class="internal-link" target="_self" rel="noopener nofollow">蒸發與沸騰</a>]]></description><link>化學/物質/物質的三態/物質的三態.html</link><guid isPermaLink="false">化學/物質/物質的三態/物質的三態.md</guid><pubDate>Thu, 02 Oct 2025 01:29:56 GMT</pubDate><enclosure url="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/649514.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://s3-ap-northeast-1.amazonaws.com/ehanlin-keyword/image/649514.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[蒸發與沸騰]]></title><description><![CDATA[都是氣化、吸收熱量液體表面
+任何溫度
+緩慢沸點
+劇烈]]></description><link>化學/物質/物質的三態/蒸發與沸騰.html</link><guid isPermaLink="false">化學/物質/物質的三態/蒸發與沸騰.md</guid><pubDate>Fri, 19 Sep 2025 08:43:32 GMT</pubDate></item><item><title><![CDATA[物質的分類圖]]></title><link>化學/物質/物質的分類圖.html</link><guid isPermaLink="false">化學/物質/物質的分類圖.canvas</guid><pubDate>Fri, 19 Sep 2025 08:09:03 GMT</pubDate></item></channel></rss>
